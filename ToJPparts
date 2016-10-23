@@ -1,0 +1,1453 @@
+
+
+//日本語の説明文に置き換えるためのデータです。
+//実行にはKSPのMOD等で使われているModuleManager.dllが必要です。
+//メモ：魔法のことば　findstr /S /r /c:"^	name = " /c:"^name = " /c:"description = " *.cfg > toJPlist.txt　//
+
+//コメントアウトされている文は実行されませんので、翻訳が終了したらパーツ名の行と説明の行２つのコメントアウトをはずしてください。
+//この構成は以下の通り
+//　@PART[説明文を置き換えるパーツ名(.cfgのname = のところ)]
+// {@description =　英語の説明文と置き換える日本語　}
+// この2つで1つのパーツの置き換えを処理します。
+
+
+// dllを使用して、KSP実行中のデータのみ上書きするので、コメントアウトされている部分は元の英文が表示されます。
+//例として以下のような翻訳例を用意しました。
+
+@PART[noseConeAdapter]
+{@description = C7エアロスペース社製のノーズコーンシステム(NCS)の土台となるパーツです。}
+// {@description = The base of C7 Aerospace's Nose Cone system (NCS)}　(原文を保存する場合はこんな感じでコピーして1文複製してください。)
+
+//以下、翻訳用のセットの羅列です。構文が崩れない限り適宜改行を入れてもらってかまいません。
+
+/////ちょっとしたおねがい
+//機械翻訳を参考にするのは問題ありませんが、そのまま使用はしないでください。また、原文のジョーク成分等を出来る限り反映できるよう配慮をお願いします。
+//パーツの名称やKerbin、Kerbalのような名詞の部分はカタカナに訳さず英語のままでお願いします。（気付かずにカタカナにしちゃっても後でこっそりと気づいた時に適当に直しておくのであまりお気になさらず。）
+//単語間にスペースを入れる場合は全角スペースを使ってください。（気付かずに半角にしちゃっても後でこっそりと気づいた時にry）
+
+/////おしらせ
+//AV-T1(@PART[winglet])の原文を発掘＆データ入力しておきましたのでどなたか翻訳お願いします。
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+///1.2からのパーツ
+
+
+@PART[SurfAntenna]
+{@description =　表面設置型のCommunotron-16です。　}
+// {@description =A Surface mount version of the Communotron-16.}
+
+
+@PART[HighGainAntenna5]
+{@description =　直接通信と短距離リレー通信の両機能を兼ね備えた短距離通信用アンテナです。　}
+// {@description =A short range dual purpose communications antenna that can handle either direct communications or short range relays.}
+
+
+@PART[RelayAntenna5]
+{@description =　先進の探索アルゴリズムならびに自動蓄積転送能力を兼ね備えたリレーアンテナです。　}
+// {@description =A relay antenna with automatic store and forward capabilities as well as advanced pathfinding algorithms.}
+
+
+@PART[RelayAntenna50]
+{@description =　先進の探索アルゴリズムならびに自動蓄積転送能力を兼ね備えたリレーアンテナです。　}
+// {@description = A relay antenna with automatic store and forward capabilities as well as advanced pathfinding algorithms.}
+
+
+@PART[RelayAntenna100]
+{@description =　先進の探索アルゴリズムならびに自動蓄積転送能力を兼ね備えたリレーアンテナです。　}
+// {@description = A relay antenna with automatic store and forward capabilities as well as advanced pathfinding algorithms.}
+
+
+@PART[ScienceBox]
+{@description =　お菓子の空き箱がmystery gooやデータテープの保存に有効だと気づいた科学者たちは、再突入の危険や手荒い着陸そしてJebの操縦技術を回避して、宇宙飛行士達が貴重な科学データをKerbinに届けられるようにする為に、このExperiment Storage Unitを作りました。　}
+// {@description = After discovering that old snack boxes were also really effective at storing mystery goo and data tapes, Kerbal scientists created the Experiment Storage Unit to help Kerbalnauts bring their valuable science back to Kerbin, while avoiding the hazards of reentry, rough landings, and Jeb's piloting skills.}
+
+
+@PART[HeatShield0]
+{@description =　ちっちゃな耐熱シールドです。　}
+// {@description =A tiny structural heat shield.}
+
+
+///1.1からのパーツ
+
+
+@PART[InflatableHeatShield]
+{@description =　子供用おもちゃの設計に基づいたこの耐熱シールドは保温性の高い毛布で覆われた浮き輪と、お城型のトランポリンの空力特性を使用しており、再突入の減速用に気前よく10メートルの熱遮蔽体を提供します。　}
+// {@description =Based on the design of a child's toy, this heat shield uses a set of inflatable rings covered with a thermal blanket to provide a generous 10 meter heat shield for reentry and deceleration, and the aerodynamic qualities of an untethered bouncy castle.}
+
+@PART[HECS2_ProbeCore]
+{@description =　ポピュラーなHECS型を元に大型化した人工衛星コアです。大容量バッテリー、専用の飛行制御、そして内蔵リアクションホイール、HECS2はより先進的な人工衛星にうってつけのコアです。　}
+// {@description =A larger probe core based on the popular HECS design. With integrated battery banks, specialized flight controls, and a built-in reaction wheel, the HECS2 is a suitable probe core for more advanced satellites.}
+
+@PART[HighGainAntenna]
+{@description =　Communotron HG-55高利得アンテナは高速で指向性のデータ転送を可能にし、当初から深宇宙探査機用に設計されています。なおIonic Symphonic Protonic Electronics社は、長期間高周波にさらされた事による損害については一切の責任を負いませんのでご注意ください。　}
+// {@description =The Communotron HG-55 high gain antenna allows for blazingly fast directional data transmission, and was originally designed for deep space probes. Please note that Ionic Symphonic Protonic Electronics is not liable for any damages that might result from prolonged exposure to RF radiation.}
+
+@PART[LgRadialSolarPanel]
+{@description =　OX-STATパネルの拡大版です。このデカブツの特徴は、小さな弟分よりも大きな表面積、さらに据え付け式ソーラーパネルの安さと軽さという利点を保っている事です。　}
+// {@description =A larger version of the OX-STAT, the XL version features a larger surface area than its smaller cousin while retaining the cost and weight benefits of a static solar panel.}
+
+
+///1.05からのパーツ
+
+
+@PART[adapterEngines]
+{@description =　ロケットエンジンの取り付け金具です。　}
+// {@description =A structural mounting plate for rocket engines.}
+
+@PART[MK1CrewCabin]
+{@description =　元はビジネスジェット用ですが、宇宙船で使用するためにアップグレードされた居心地の良い客室です。　}
+// {@description =A cozy passenger cabin derived from a business jet and upgraded for use in spacecraft.}
+
+@PART[mk3CargoRamp]
+{@description =　地上、海上、空中、あるいは真空中での貨物輸送用の洗練された展開システムです。どこへでもあなたの思うままに。　}
+// {@description =A sophisticated deployment system for cargo delivery on the ground, or on the sea, or in mid-air, or in a vacuum. Wherever you want, really.}
+
+@PART[MiniDrill]
+{@description =　人気のDrill-O-Maticの小型版であるこのドリルは、惑星や小惑星の地殻から貴重な資源を抽出するのを支援するために設計されています。大きなイトコとは異なり、この小さいモデルは 2.5％を超える濃度の鉱石にのみ適しています。熟練したエンジニアが操作するときには、より効率良く稼働させることができます。これらのモジュールは、理想的な動作温度で最高の動作をし、過熱した場合には自動でシャットダウンする機能を備えています。ラジエータが熱管理の助けになるでしょう。　}
+// {@description =A smaller version of the popular Drill-O-Matic, this drill is designed to help extract valuable resources from the crust of planets and asteroids.  Unlike it's larger cousin, this smaller model is only suitable for ore concentrations in excess of 2.5%.  When operated by a skilled engineer, you will be able to operate with better efficiency.  These modules operate best at their ideal operating temperatures, and features auto-shutdown in the event of excessive overheating.  Radiators can be used to help manage excessive heat.}
+
+@PART[miniFuselage]
+{@description =　ジェット燃料のための小さなコンテナです。　}
+// {@description =A small container for jet fuel.}
+
+@PART[miniIntake]
+{@description =　このエアインテークは吸気式エンジンに必須の部品で、外部に空気のある限り、タービンエンジンを駆動させるのに必要な空気を取り込みます。亜音速飛行に最適化されています。　}
+// {@description =　A must-have for air breathing engines, this intake duct will pull in outside air to run turbine engines on, as long as there is any outside air to begin with, of course. Optimized for subsonic flight.}
+
+@PART[MiniISRU]
+{@description =　Kerbodyne社の小型移動式工場は、ごく微量の酸素と水素を含む原料を採取し、有用な燃料を精製することができます。熟練したエンジニアが操作すれば、より効率良く稼働させることができます。この小さいモデルは大きなイトコよりも軽量ですが、あまり効率的ではなく、長期的な運転を前提に設計されていません。これらのモジュールは理想的な動作温度で最高の動作をし、過熱した場合には自動でシャットダウンする機能を備えています。ラジエータが熱管理の助けになるでしょう。　}
+// {@description == A smaller version of Kerbodyne's mobile processing plant, this module can take raw materials containing even trace amounts of oxygen and hydrogen, and crack them into useful fuel products.  When operated by a skilled engineer, you will be able to operate with better efficiency.  While this smaller model is lighter than it's bigger cousin, it is less efficient, and not designed for long-term operations.  These modules operate best at their ideal operating temperatures, and features auto-shutdown in the event of excessive overheating.  Radiators can be used to help manage excessive heat.}
+
+@PART[miniJetEngine]
+{@description =　この小さなターボジェットエンジンは、さほど効率的でもなく貧血を起こしたような推力……うわ安い！カワイイ！…ちっちゃなことに目を向けよう！　}
+// {@description =A small turbojet. Not very efficient, anemic thrust, but hey--it's cheap! And it's so cute...look at the little thing!}
+
+@PART[RadialOreTank]
+{@description =　素材を貯蔵したり、ひょっとしたら予備のお菓子もしまっておけるかもしれない小さな円形のタンクです。　}
+// {@description =A small radial tank for storing raw materials, or possibly spare snacks.}
+
+@PART[radPanelEdge]
+{@description =　放熱に役立つ側面取り付け式のラジエーターパネルです。　}
+// {@description =A radially attachable radiator panel to help dissipate heat into space.}
+
+@PART[SSME]
+{@description =　Kerbodyne社の主力エンジン:KS- 25は、その高い推力重量比と並外れた海面高度での効率により、第一段エンジンとして優れています。 Kerbodyneのエンジニアは、二段燃焼サイクルによって極めて高い燃焼室内圧力でエンジンを駆動させ、これを実現しました。エンジンが爆弾になりたがる傾向を抑えるため、特殊な新合金を開発しなければなりませんでした。この単発式ロケットエンジンは、高耐久部材と高い再利用性、ならびに広いジンバル駆動範囲で設計されていますが、第一段クラスタで使用される使い捨ての競合品に比べて重くなってしまっています。　}
+// {@description =Kerbodyne's flagship engine, the KS-25 excels as a first stage engine through its high thrust-to-weight ratio and exceptional sea level efficiency. Kerbodyne engineers achieved this by running the engine in a staged combustion cycle and at extremely high chamber pressures. Special new alloys had to be invented to suppress the engine's tendency to become a bomb. The single version is designed with very durable components and high reusability, as well as higher gimbal range, but because of that is also heavier than its expendable counterpart used in first stage clusters.}
+
+@PART[turboFanSize2]
+{@description =　これまでに製造された中でも最大かつ最高の推力をもつジェットエンジンです。このエンジンは、低巡航速度及び低高度下で最適に動作します。　}
+// {@description =The largest and highest thrust jet engine ever built. This engine works best at low cruising speeds and altitudes.}
+
+@PART[turboJet]
+{@description =　この高性能ジェットエンジンは、可変推力偏向ノズルと、強力なアフターバーナーを備えています。　}
+// {@description =A high performance jet engine with a variable geometry thrust vectoring nozzle and an afterburner for extra thrust.}
+
+
+
+///1.03からのパーツ
+
+@PART[foldingRadLarge]
+{@description = 複数の水冷式ラジエーターで構成された展開式の冷却装置です。}
+//{@description = A deployable thermal control system consisting of multiple liquid cooled radiator panels.}
+
+@PA{@description = 複数の水冷式ラジエーターで構成された展開式の冷却装置です。}
+//{@description = A deployable thermal control system consisting of multiple liquid cooled radiator panels.}
+
+@PART[foldingRadSmall]
+{@description = 複数の水冷式ラジエーターで構成された展開式の冷却装置です。}
+//{@description = A deployable thermal control system consisting of multiple liquid cooled radiator panels.}
+
+@PART[radPanelLg]
+{@description = 放熱に役立つ側面取り付け式のラジエーターパネルです。}
+//{@description = A radially attachable radiator panel to help dissipate heat into space.}
+
+@PART[radPanelSm]
+{@description = 放熱に役立つ側面取り付け式のラジエーターパネルです。}
+//{@description = A radially attachable radiator panel to help dissipate heat into space.}
+///1.01からのパーツ
+
+@PART[basicFin]
+{@description = このシンプルなボルト止めのアルミ製フィンは航空宇宙工学の最先端ではないかもしれませんが、激安で不安定なロケットを少しは安定させられます。}
+//{@description = This simple bolt-on aluminum fin may not be the cutting edge of aerospace engineering but it's dirt cheap and will make your rocket slightly less unstable.}
+
+
+///1.0からのパーツ
+///（説明文に変更があった過去パーツも含みます。変更のあった過去の構文はコメントアウトしてあります。）
+
+
+
+@PART[airbrake1]
+{@description ="空中の飛行機を減速させる実用的な方法の研究の結果、緩んだ船体パネルが生む空気抵抗が減速装置として優れていることを発見しました。この発見から動力展開統合空力運動制動機構、長すぎるので略すと”A.I.R.B.R.A.K.E.S.”が発明されました。滑走路を長くしなくても、より安価なこの制動装置が代わりになるので人気を博しています。C7のエンジニア達はもっと短い略称を付けようと未だ頭を捻っています。"}
+//{@description =" Research into feasible ways to slow down a plane in mid-air showed that loose hull panels are pretty great as drag-inducing deceleration devices. The discovery led to the invention of the Aerodynamically Integrated Retrograde Braking Robustly Armed Kinetic Extending System (A.I.R.B.R.A.K.E.S.), which is now popular mostly as a cheap alternative to longer runways. C7 Engineers are still trying to come up with a shorter name for such a long acronym."}
+
+@PART[airlinerCtrlSrf]
+{@description = 従来通りの大きな操縦翼面です。}
+//{@description = Large conventional control surface.}
+
+@PART[airlinerMainWing]
+{@description = 製造されている中で最大の翼です。内部の容積も大きいのでたっぷり燃料を運ぶことができます。}
+//{@description = One of the largest lifting surfaces in production. The internal volume of these is big enough to carry generously sized fuel tanks.}
+
+@PART[airlinerTailFin]
+{@description =従来通りの大きな、操縦翼面付きの翼です。}
+//{@description = Large conventional wing with built-in control surface.}
+
+@PART[airplaneTail]
+{@description ="航空機の為の単純な尾部です。標準的に使われている1.25m径部品に合うように設計されました。この部品は我々の「Let's　Fly」パーツシリーズを構成しています。"}
+//{@description =" A simple aerodynamic tail for aircraft. Designed to fit onto all standard 1.25m attachments, this part is the embodiment of our ""Let's Fly"", line of parts."}
+
+@PART[airplaneTailB]
+{@description = この定評ある航空機の尾部の上向き版は離陸時に地面との大きな余裕を作ります。}
+//{@description = This raised variant of our popular airplane tail provides a lot of ground clearance during take-off.}
+
+@PART[avionicsNoseCone]
+{@description = "同僚に一流の操縦テクを披露して自慢したいのに、技能が今ひとつ及ばずに困ったことはありませんか？ならばC7　Aerospace社の「Fly-By-Wire　Avionics　Hub」が答えです。このモジュールがあれば最小限の訓練しか受けていないパイロットでもエース級の操縦ができるようになります！警告：このモジュールは自律動作はできません。もし試すと保証外になります。警告：ジャイロスコープは内蔵されていません。また操縦翼面を動かすアクチュエータは別売です。警告：C7　Aerospace製ゲロ袋（別売、現在品切れ）をちゃんと備え付けないと保証対象外です。"}
+//{@description =" Have you ever wanted to impress your peers by showing off your elite flying skills, but lacked the skills to become a trained pilot? C7 Aerospace's Fly-By-Wire Avionics Hub is the solution! This module allows even the most minimally trained crew to fly like an Ace! WARNING: This module cannot operate autonomously. Warranty void if attempting to do so. WARNING: Module contains no internal gyroscopes or control systems (control actuators sold separately). WARNING: Warranty void without proper use of C7 Aerospace Brand Sickness Bags (sold separately, currently out of stock)."}
+
+@PART[elevonMk3]
+{@description = (このパーツはもう時代遅れです)}
+//{@description = (OBSOLETE)}
+
+@PART[fairingSize1]
+{@description ="まだミッションコントロールのKerbal達がロケットを安全に帰還させるにはどうすればいいかあれこれ考えていた頃に、FLOOYDの研究者達は離陸中に保護するパーツも同じくらい重要だと気づきました。そこで重要なペイロードやロケットの上段を保護するフェアリングを製造するという目的で、断面形状を元にしたフェアリング自動成形に関する大変な研究に資金がつぎ込まれました。このフェアリングはロケットの空力を改善する利点もあるので、貴重なロケット燃料を節約できるかもしれません！このAE-FF1はFLOOYDより購入できる中で最小サイズの物です。"}
+//{@description =" While the Kerbals at Mission Control were still figuring out how to get their rockets back down to Kerbin safely, the research engineers at FLOOYD were quickly realising that protecting parts on ascent was just as important. Heavy research into two-dimensional-input driven procedural construction was then funded with the hopes of making protective shells for important payloads and interstage areas of the crafts. The protective shells also have the benefit of making the craft more aerodynamic, hopefully saving on precious rocket fuel! The AE-FF1 is the smallest size available from FLOOYD."}
+
+
+@PART[fairingSize2]
+{@description ="まだミッションコントロールのKerbal達がロケットを安全に帰還させるにはどうすればいいかあれこれ考えていた頃に、FLOOYDの研究者達は離陸中に保護するパーツも同じくらい重要だと気づきました。そこで重要なペイロードやロケットの上段を保護するフェアリングを製造するという目的で、断面形状を元にしたフェアリング自動成形に関する大変な研究に資金がつぎ込まれました。このフェアリングはロケットの空力を改善する利点もあるので、貴重なロケット燃料を節約できるかもしれません！このAE-FF1はFLOOYDより購入できる中では中サイズの物です。"}
+//{@description =" While the Kerbals at Mission Control were still figuring out how to get their rockets back down to Kerbin safely, the research engineers at FLOOYD were quickly realising that protecting parts on ascent was just as important. Heavy research into two-dimensional-input driven procedural construction was then funded with the hopes of making protective shells for important payloads and interstage areas of the crafts. The protective shells also have the benefit of making the craft more aerodynamic, hopefully saving on precious rocket fuel! The AE-FF2 is the mid-range size available from FLOOYD."}
+
+
+@PART[fairingSize3]
+{@description ="まだミッションコントロールのKerbal達がロケットを安全に帰還させるにはどうすればいいかあれこれ考えていた頃に、FLOOYDの研究者達は離陸中に保護するパーツも同じくらい重要だと気づきました。そこで重要なペイロードやロケットの上段を保護するフェアリングを製造するという目的で、断面形状を元にしたフェアリング自動成形に関する大変な研究に資金がつぎ込まれました。このフェアリングはロケットの空力を改善する利点もあるので、貴重なロケット燃料を節約できるかもしれません！このAE-FF1はFLOOYDより購入できる中で最大サイズの物です。"}
+//{@description =" While the Kerbals at Mission Control were still figuring out how to get their rockets back down to Kerbin safely, the research engineers at FLOOYD were quickly realising that protecting parts on ascent was just as important. Heavy research into two-dimensional-input driven procedural construction was then funded with the hopes of making protective shells for important payloads and interstage areas of the crafts. The protective shells also have the benefit of making the craft more aerodynamic, hopefully saving on precious rocket fuel! The AE-FF3 is the largest size available from FLOOYD."}
+
+@PART[FuelCell]
+{@description = 小型の燃料電池は、燃料と酸化剤をエネルギーに変換することを可能にしました。ソーラーパネルが発電できない場所で便利です。お菓子を再加熱するのにも便利です。}
+//{@description = A small fuel cell that allows fuel and oxidizer to be converted into energy.  Handy for those places where a solar panel will not do.  Also handy for re-heating snacks.}
+
+@PART[FuelCellArray]
+{@description ="6つの燃料電池を取り付けられるのに、なぜ1つしか取り付けていないのですか？この燃料電池アレイは、信頼性の高い大電力源が必要な状況に最適です。小さい燃料電池と同様に、このアレイは、燃料と酸化剤をエネルギーに変換することにで動作します。"}
+//{@description =" Why have just one fuel cell when you can have six?  The fuel cell array is ideal for situations where you need a large source of reliable power.  Like the smaller fuel cells, this array operates by converting fuel and oxidizer into energy."}
+
+@PART[GearFixed]
+{@description ="あなたの鳥を安全に着陸させるための、棒の先に車輪が付いただけの単純な着陸装置です。(鳥とはあなたの飛行機を指します、KSCは本物の鳥に車輪を取り付ける事は推奨しません。)"}
+//{@description =" Simple wheel-on-a-stick Landing Gear to bring your birds down safely. (That means your airplanes, KSC disadvises attempts to attach landing gear to actual birds)"}
+
+@PART[GearFree]
+{@description = 操縦機能付きの簡単な車輪です。ゆっくりと地表を走っている間は、操縦翼面だけではうまく操縦できないことが明らかになってきています。うまくいけば、これらの車輪は、建物と低高度低速衝突する頻度を減らすことができます。Kerbal達との衝突もね。}
+//{@description = Simple wheel with steering actuation. It has become evident that aerodynamic control surfaces don't offer much control while slowly taxiing on the ground. Hopefully these wheels will reduce the number of low altitude low speed collisions with buildings. And Kerbals.}
+
+@PART[GearLarge]
+{@description = 丈夫な引き込み式着陸装置です。4個の大きなタイヤと頑丈な部品を備えており、重量級の輸送機や旅客機の為の着陸装置の選択肢の一つです。}
+//{@description = Heavy-duty retractable landing gear. With it's four large tires and sturdy assembly it's the gear of choice for heavy cargo planes and airliners.}
+
+
+@PART[GearMedium]
+{@description ="高性能格納式着陸装置です。この大きなバージョンは大きくて重い飛行機を支えるために、2つの大きなタイヤを備えています。脚が長いので地表との間隔を取ることができ、ショックアブソーバと操向装置、着陸灯も内蔵されています。"}
+//{@description =" High performance retractable landing gear. This bigger version features two large tires to support big and heavy planes. The longer assembly allows for improved ground clearance. //Comes with shock absorber, steering and a built-in spotlights."}
+
+@PART[HeatShield1]
+{@description = 空力的に成形された小さな耐熱板です。}
+//{@description = A small structural heat shield with an integrated fairing}
+
+@PART[HeatShield2]
+{@description = 空力的に成形された中くらいの耐熱板です。}
+//{@description = A medium structural heat shield with an integrated fairing}
+
+@PART[HeatShield3]
+{@description = 空力的に成形されたフェアリングが統合された大きな耐熱板です。}
+//{@description = A large structural heat shield with an integrated fairing}
+
+@PART[ionEngine]
+{@description = イオン化されたキセノンガスを小さな推進ポートから噴射することで、Dawnは信じられないくらい効率的に推進力を生み出します。短所はとても小さな推力と膨大な消費電力です。ISP　Electronicsの販売員によると、このエンジンが黒魔術で動いていると言う世間での噂はあまりにも大げさすぎるものだそうです。}
+//{@description =" By emitting ionized xenon gas through a small thruster port, Dawn can produce incredibly efficient propulsion, but with a downside of very low thrust and high energy usage. According to ISP Electronics sales reps, the rumours of this engine being powered by ""dark magic"" are largely exaggerated."}
+
+@PART[ISRU]
+{@description ="この移動精製工場は、たとえ痕跡量程度しか酸素や水素を含有していない原料からでも、精製により有用な燃料を製造できます。"}
+//{@description =" This mobile processing plant can take raw materials containing even trace amounts of oxygen and hydrogen, and crack them into useful fuel products."}
+
+@PART[Large_Crewed_Lab]
+{@description ="もはやKerbinの施設のみで研究する必要はありません！　モバイル処理ラボでは、フィールドで収集したデータで長期的な実験や継続的な研究を行うことができます。随時科学者達を確認しに戻って、彼らの研究の結果を送信して下さい！このモデルは、以前のものよりも自然発火しにくいことが保証され、また使用済みの実験装置を復元するために必要な設備を備えています。"}
+//{@description =" No longer are you limited to research facilities only on Kerbin!  With the Mobile Processing Lab, you can conduct long-term experiments and ongoing research with the data you collect in the field.  Be sure to check back on your scientists from time to time, and transmit the results of their research home! This model is guaranteed to spontaneously combust less than previous models, and also has the equipment necessary to clean out and restore functionality to inoperable experiments."}
+
+@PART[largeSolarPanel]
+{@description ="市販の唯一最大のソーラーパネルアレイです。Gigantor　XLはコンパクトな収納状態にもかかわらずとてつもない電力の発電が可能です。　放熱のために裏面には受動的な放熱器を備えています。"}
+//{@description =" The single largest solar array available for purchase, the Gigantor XL offers tremendous generation potential from a compact initial package.  Includes passive radiators on the reverse side for better heat dissipation."}
+
+
+@PART[LargeTank]
+{@description = 掘り出した鉱石の貯蔵に使用可能な大きなタンクです。エア遊具として遊ぶのに使わないでください。}
+//{@description = A large tank that can be used for storing raw materials.  Not to be used as a bouncy castle.}
+
+@PART[liquidEngine]
+{@description ="部品がばらばらになるような無意味な使われ方により酷評されたこともありますが、LV-Tシリーズのエンジンはそれら自身が比較的信頼できるということを証明し続けて来ました。　T30型エンジンは故障したりガタガタする確率が50%を下回る記録を残しており、これはエンジニアとLV-Tシリーズの愛好家による旧モデルからの大幅な改良の成果です。"}
+//{@description =" Although criticized by some due to their not insignificant use of so-called ""pieces found lying about"", the LV-T series engines have proven themselves as comparatively reliable. The T30 model boasts a failure and rattly bits ratio below the 50% mark, this has been considered a major improvement over previous models by engineers and LV-T enthusiasts."}
+
+
+@PART[liquidEngine2]
+{@description ="LV-T45エンジンは推力偏向機能を持ち、LV-Tシリーズの一つの進化系だと考えられています。推力を偏向することで、宇宙船の制御力を向上することができます。こういった追加の機構により、他のモデルに比べ少し小さく、そして重くなりました。"}
+//{@description =" The LV-T45 engine was considered a breakthrough in the LV-T series due to its Thrust Vectoring feature. The LV-T45 can deflect its thrust to aid in craft control. All these added mechanics however, make for a slightly smaller and heavier engine in comparison with other LV-T models."}
+
+@PART[mk3CargoBayL]
+{@description ="もともとRockomax　Jumbo-64タンクの入っていた箱は捨てていたのですが、ある日聡明な後任エンジニアが貨物庫として再利用することを提案しました。上司は直ちに彼を他の部署に配置換えすると、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです！"}
+//{@description =" Originally we threw away the container the Rockomax Jumbo-64 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!"}
+
+
+@PART[mk3CargoBayM]
+{@description ="もともとRockomax　X200-32タンクの入っていた箱は捨てていたのですが、ある日聡明な後任エンジニアが貨物庫として再利用することを提案しました。上司は直ちに彼を他の部署に配置換えすると、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです！"}
+//{@description =" Originally we threw away the container the Rockomax X200-32 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!"}
+
+
+@PART[mk3CargoBayS]
+{@description ="もともとRockomax　X200-16タンクの入っていた箱は捨てていたのですが、ある日聡明な後任エンジニアが貨物庫として再利用することを提案しました。上司は直ちに彼を他の部署に配置換えすると、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです！"}
+//{@description =" Originally we threw away the container the Rockomax X200-16 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!"}
+
+@PART[nacelleBody]
+{@description ="エンジンナセルは、空気吸気エンジン駆動の完結したソリューションです。空気の流れを改善すると同時にエンジンを冷却するので、一石二鳥と言えます。C7のエンジニアは、このユニットはとても安全なので凹みや焦げ跡を付けていくことでそれぞれ特徴的な外見になっていくと請け合いました。"}
+//{@description =" The Engine Nacelle is a self-contained solution for powering air-breathing engines. It improves airflow and cools the engine, making it a very practical option. C7 Engineers assure us that these units are quite safe, and that the dents and burn marks will give yours a more unique look."}
+
+@PART[nuclearEngine]
+{@description ="このエンジンの側面には大きく恐ろしい放射能マークがついていて、放射性排気やオーバーヒートする傾向もありますが、LV-N原子ロケットモータは無害です。ほとんど無害。※LV-NはLVシリーズで唯一、液体燃料のみを使用します　-　未来は明るく輝いています！"}
+//{@description =" Despite the big scary trefoil painted onto the side of this engine, its radioactive exhaust, and tendency to overheat, the LV-N Atomic Rocket Motor is harmless. Mostly. Note that the LV-N is the only LV series engine to run solely on Liquid Fuel - the future is glowing bright!"}
+
+@PART[OrbitalScanner]
+{@description ="潜在的な着陸地点を調査するために理想的なスキャナです。惑星や月の軌道に関する詳細な情報を提供します。もっとも、この情報はスキャナーの直下の地点に限定されます。"}
+//{@description =" Ideal for surveying potential landing sites, this scanner provides detailed information about the planet or moon that it orbits, though this data is limited to the spot directly below the scanner."}
+
+@PART[pointyNoseConeA]
+{@description = 鋭くシャープな形状により空気抵抗を減少させます。.}
+//{@description = Less drag due to pointy shape.}
+
+@PART[pointyNoseConeB]
+{@description = ブースターに有効　-　この傾斜した形状は空気圧を導くのに適しています。}
+//{@description = Useful for boosters - the slanted shape is good for leading pressure.}
+
+@PART[RadialDrill]
+{@description ="惑星や小惑星の表面から有効な資源を取り出すのを支援するよう設計されたDrill-O-Maticは、後の処理に用いる砕いた鉱石を貯蔵容器に輸送する為に、内部に輸送用の螺旋部を備えた回転するドリルを使用しています。スキルを持った技術者が使用する場合、より高い効率で、またドリルの温度が高くなっても、この装置を動かすことが出来ます。"}
+//{@description =" Designed to help extract valuable resources from the crust of planets and asteroids, the Drill-O-Matic uses a rotary drill combined with an internal transfer auger to pull crushed regolith into holding tanks for later processing.  When operated by a skilled engineer, you will be able to operate with better efficiency, and at higher drill temperatures."}
+
+@PART[radialDrogue]
+{@description ="Mk12-RはMk25の半分サイズのラジアルマウントバージョンです。この”Drogue”、パラシュートは小さく、ずっと高いところで展開します。確かに、地面に衝突して粉砕するのを防ぐのには十分ではありませんが、メインパラシュートの展開前に機体を遅くするのには有用です。"}
+//{@description =" The Mk12-R is a half sized radial mount version of the Mk25. This ""Drogue"" parachute is small, deploys high up, and certainly not enough to stop you smashing into the ground on its own, but useful for slowing craft down before the deployment of your main chutes."}
+
+@PART[radialEngineBody]
+{@description =吸入空気の予圧縮と高速冷却によりジェットのパフォーマンスを向上させます。} 
+//{@description = Improves jet performance by pre-compressing and rapidly cooling the intake air.} 
+
+@PART[ramAirIntake]
+{@description ="超音速域において、インテークの内側の　-専売特許出願中、極秘事項-　は流入する空気の流れを偏向し、そして　-専売特許出願中、極秘事項-　を発生させます。それは　-専売特許出願中、極秘事項-　を作りだし、それによって高高度での高速状態におけるこの装置の効率を大幅に増加させます。特許出願中。"}
+//{@description =" At supersonic speeds, -PATENT PENDING, CLASSIFIED INFO- inside the intake duct deflect the incoming air stream, causing -PATENT PENDING, CLASSIFIED INFO-, which creates a -PATENT PENDING, CLASSIFIED INFO-, thereby greatly increasing the efficency of this unit at high altitudes and speeds. Patents Pending."}
+
+@PART[roverBody]
+{@description ="プローブとバッテリーを取り付ける頑丈なハウジングで、組み立てが不要です！地上走行ローバーの車体として使うことが想定されていましたが、夢見がちなエンジニアによると可能性は無限大だ！そうです。SASは内蔵しているものの、リアクションホイールは付いていません。なので姿勢を制御するには外付してください。"}
+//{@description =" A sturdy housing for a robust probe and battery system - no assembly required! Thought intended as the body for surface rovers, we've been told by our most day-dreaming of engineers that the possibilities are endless! While it has a Stability Assistance System, the RoveMate lacks reaction wheels so bring some along if you want to hold that attitude."}
+
+
+@PART[seatExternalCmd]
+{@description ="EAS-1外部コマンドシートは、コマンドポッドのように、完全に宇宙船を操作するために必要なすべてのコントロールを提供しますが、”加圧されたインテリア”、または”シートベルト”のような無駄でくだらないものはありません。これは要点を押さえ、効率を最も追求したペダル・ツー・メタル方式です。"}
+//{@description =" The EAS-1 External Command Seat provides all the controls needed to fully operate a spacecraft, just like a command pod, but without such needless frivolities as ""pressurized interiors"", or ""seat belts"". It's bare-bones, pedal-to-the-metal efficiency at its finest."}
+
+@PART[sensorAtmosphere]
+{@description ="周囲の空気の正確な流体分光バリオメトリー分析を実行するための装置です。流体分光バリオメトリーが本当の科学ではないと主張する幾つかの批判にもかかわらず、提供するデータは全て間違いなく面白い情報であると同意するKerbal科学者がいるようです。※空気にさらされると保証対象外となります。"}
+//{@description =" A device for performing accurate fluid spectro-variometry scans of the surrounding atmosphere. Despite some criticism claiming that fluid spectro-variometry isn't a real science, Kerbal scientists seem to all agree that the data it provides is definitely interesting. Warranty void if exposed to air."}
+
+@PART[ServiceBay_125]
+{@description ="耐熱仕様のコンテナで、RCSタンクやバッテリーなどの脆弱な機器や小さなパーツを保護・収納するのに適しています。"}
+//{@description =" A heat resistant service bay, ideal for protecting delicate instruments or stowing small service components such as RCS tanks, batteries, etc."}
+
+
+@PART[ServiceBay_250]
+{@description ="耐熱仕様のコンテナで、RCSタンクやバッテリーなどの脆弱な機器や小さなパーツを保護・収納するのに適しています。"} 
+//{@description =" A heat resistant service bay, ideal for protecting delicate instruments or stowing small service components such as RCS tanks, batteries, etc."}
+
+@PART[Size3LargeTank]
+{@description ="既存の巨大なS3-7200よりも更に大きな燃料タンクが有るなんて誰も信じない（それどころか必要としていない）時、Kerbodyne社は正気を疑うようなS3-14400型を発売しました。この燃料タンクはその比例して増大したコストを正当化するために十分な燃料を詰め込めます。燃料の搭載量は従来の丁度2倍もあります。"}
+//{@description =" When nobody believed in (or even asked for) an even larger fuel tank than the already enormous S3-7200, Kerbodyne stepped up with the sanity-defying S3-14400 model. Carrying fully twice as much fuel as before, this fuel tank may just pack enough propellant to justify its proportionately enormous cost."}
+
+
+@PART[Size3MediumTank]
+{@description = Kerbodyne社製の重量級の燃料タンクです。先進的なロケットエンジンと共に使用されるよう設計されています。}
+//{@description = Kerbodyne's signature heavy fuel tank. Designed to be used with their advanced rocket engines.}
+
+
+@PART[Size3SmallTank]
+{@description ="Kerbodyne社の象徴的な燃料タンクの半分の容量のバージョンですが、コストは調度半分ではありません。"}
+//{@description =" A half-capacity version of Kerbodyne's iconic fuel tank, for not quite exactly half the cost."}
+
+@PART[SmallGearBay]
+{@description ="高性能な格納式着陸装置です。ショックアブゾーバー、ステアリング、内蔵型スポットライトを備えています。"}
+//{@description =" High performance retractable landing gear. Comes with shock absorber, steering and a built-in spotlight."}
+
+
+@PART[SmallTank]
+{@description ="加工前の資源を保管するためのタンクですが、予備のスナックを入れることもできるでしょう。"}
+//{@description =" A small tank for storing raw materials, or possibly spare snacks."}
+
+@PART[solarPanels2]
+{@description = SPモデルの太陽電池パネルの配列を変えたものです。放熱のために裏面には受動的な放熱器を備えています。}
+//{@description = The alternate configuration of the SP Model Photovoltaic Panels.  Includes passive radiators on the reverse side for better heat dissipation.}
+
+
+@PART[solarPanels4]
+{@description = OX-4はSPシリーズ太陽電池パネルに似ていますが、重い防護容器はついていません。放熱のために裏面には受動的な放熱器を備えています。}
+//{@description =" The OX-4 is similar in design to the SP series solar panels, but without the heavy casing.  Includes passive radiators on the reverse side for better heat dissipation."}
+
+
+@PART[solarPanels1]
+{@description ="Probodobodyneブランドの太陽電池パネルは発電用途においては家庭から宇宙まで使われる世界標準です。SPモデルは防護容器に入っており、使い終わった時でも回収が可能です。放熱のために裏面には受動的な放熱器を備えています。"}
+//{@description =" Probodobodyne branded Photovoltaic Panels are the world standard for power generation, from your own home to the stars. The SP model comes with a protective shroud, allowing recovery when it's no longer needed.  Includes passive radiators on the reverse side for better heat dissipation."}
+
+
+@PART[solidBooster]
+{@description ="その大きさに似合わず強力なパンチを持っています。RT-10は資金を節約することが宇宙飛行士を生還させることよりも重要な多くの宇宙開発において広く用いられています。"}
+//{@description =" Packing a powerful punch for its size, The RT-10 is widely used in many space programs, whenever the need to save cash is greater than the need to keep astronauts alive. "}
+
+
+@PART[solidBooster_sm]
+{@description ="爆発が詰まったゴミ箱に毛が生えた程度の物だと一部では考えられていますが、RT-5は多くの宇宙開発で使われているのを見かけます。ひょっとすると多くの宇宙開発においてそれしか選択肢が無いのかもしれませんが、しかしそれでも、この小さなブースターは小さな積荷をそれなりの高度へ持ち上げるのに十分なキックを提供します。しかし、使用の際は注意してください。一度火が付くと、固体燃料モーターは燃料が尽きるまで止めることができません。"}
+//{@description =" While considered by some to be little more than ""a trash bin full o' boom"", The RT-5 can be seen in use at many space programs, perhaps possibly because it is the only option for many space programs, but nevertheless, this small booster provides a nice kick to lift small payloads to considerable heights. Use with caution, though. Once lit, solid fuel motors cannot be put out until the fuel runs out."}
+
+
+@PART[SurfaceScanner]
+{@description ="土壌、大気、海水用の試料採取器が入った小さなモジュールです。惑星や衛星に着陸した際に使用すれば、収集された標本データは軌道探査スキャナの探査精度を高める為に利用できます。"}
+//{@description =" A small module that includes soil, atmospheric, and oceanic sampling tools.  When used while landed on a planet or moon, the sample data gathered can be used to increase the accuracy of orbital survey scanners."}
+
+@PART[SurveyScanner]
+{@description ="この軌道探査スキャナは惑星や衛星の地下資源についての情報を提供するため高度な探査技術と魔法を併用しています。これらの映像は飛行中だけでなく、より安全で快適なKSCに帰還してからも閲覧することが出来ます。 情報を送信可能なアンテナと電力が確保できているか確認してください。"}
+//{@description =" This orbital survey scanner uses a combination of advanced sensor technology and witchcraft to provide information on a planet or moons natural resources.  These images can be viewed either in flight, or in relative safety and comfort back at the KSC.  Be sure to bring an antenna capable of transmitting the information back, and sufficient power."}
+
+@PART[sweptWing]
+{@description ="試作型の後退翼です。この部品は我々の「Let's　Fly」パーツシリーズを構成しています。軽量の複合材料で作られました。揚力を発生させることは保証しますが、乗組員の安全の確保は保障しません。"}
+//{@description =" A prototype swept back wing, part of our ""Let's Fly"", line. Made of light weight composite materials. Guaranteed to generate lift, not guaranteed to ensure crew safety."}
+
+@PART[turboFanEngine]
+{@description ="高い性能を発揮するために宇宙開発仕様の素材を使った高発展型タービンエンジンです。この新型には最新の推力偏向と気体圧縮技術が用いられ、高高度かつ高速度で最適な動作をする様設計されています。発展型ターボラムジェットは圧縮機の周りに空気をバイパスさせる設計で一般的なジェットエンジンよりも遙かに高い最高速度を出すことが可能になっています。そのためC7　Aerospace社の技術者はあらゆる配管の漏れは意図的なものであると断言しています。"}
+//{@description =" A highly advanced turbine engine using space-grade materials for very high performance. This new model features the latest in thrust vectoring and compression technology and is designed to operate best at higher altitudes and speeds. The advanced turbo ramjet design bleeds air around the compressor at high speed allowing a far maximum speed than regular jet engines, so engineers from C7 Aerospace assured us all those leaks are intentional."}
+
+
+@PART[wingShuttleDelta]
+{@description ="現在まで、Big-Sシリーズの翼はC7社の最大かつ最新の翼です。頑丈で再突入にも耐えうる強度と耐熱性だけでなく、大きな体積により翼内に燃料タンクを備えています。"}
+//{@description =" The Big-S line of wings are C7's largest lifting surfaces to date. Not only are they Sturdy and heat resistant enough to survive reentry, but also have enough internal volume to carry optional fuel tanks."}
+
+@PART[wingShuttleElevon1]
+{@description ="現在まで、Big-Sシリーズの翼はC7社の最大かつ最新の翼です。頑丈で再突入にも耐えうる強度と耐熱性だけでなく、大きな体積により翼内に燃料タンクを備えています。"}
+//{@description =" The Big-S line of wings are C7's largest lifting surfaces to date. Not only are they Sturdy and heat resistant enough to survive reentry, but also have enough internal volume to carry optional fuel tanks."}
+
+
+@PART[wingShuttleElevon2]
+{@description ="現在まで、Big-Sシリーズの翼はC7社の最大かつ最新の翼です。頑丈で再突入にも耐えうる強度と耐熱性だけでなく、大きな体積により翼内に燃料タンクを備えています。"}
+//{@description =" The Big-S line of wings are C7's largest lifting surfaces to date. Not only are they Sturdy and heat resistant enough to survive reentry, but also have enough internal volume to carry optional fuel tanks."}
+
+@PART[wingShuttleRudder]
+{@description = 大型の耐熱安定翼です。}
+//{@description = Large heat resistant spaceplane fin.}
+
+
+@PART[wingShuttleStrake]
+{@description ="現在まで、Big-Sシリーズの翼はC7社の最大かつ最新の翼です。頑丈で再突入にも耐えうる強度と耐熱性だけでなく、大きな体積により翼内に燃料タンクを備えています。"}
+//{@description =" The Big-S line of wings are C7's largest lifting surfaces to date. Not only are they Sturdy and heat resistant enough to survive reentry, but also have enough internal volume to carry optional fuel tanks."}
+
+
+@PART[xenonTankLarge]
+{@description = ほとんどのKSCスタッフがキセノンを正しく発音できません。ただ、正しい発音を教わるとそれが超クールな響きであることには同意します。こんな調子ではキセノンガスを燃料として使えるようにするには、あらゆる努力が必要になるでしょう。}
+//{@description =" Although most of the Probodobodyne staff couldn't pronounce ""Xenon"", when told how to say it correctly, they all agreed it sounded super-cool - and everything possible should be done so it could be used as a fuel, no matter the cost."}
+
+
+///0.90からのパーツ///
+
+@PART[mk3FuselageMONO]
+{@description = リアクションコントロールシステムで十分な制御が出来ない時の対応策：RCS燃料を増やすんだよ!}
+// {@description =The reaction to when the reaction control system doesn't have enough control in the system; more monopropellant!}
+
+@PART[mk3FuselageLF_50]
+{@description = 通常の1/4程度の"莫大な燃料"を使いたい方向け。}
+// {@description =For when your fuel needs are only 1/4 as enormous.}
+@PART[mk3FuselageLF_25]
+{@description = コンパクト志向の巨大航空機設計者向けの燃料タンクです。}
+// {@description =For the economically minded aerospace designer, who is building a massive plane...}
+
+@PART[mk3FuselageLF_100]
+
+{@description = C7　Aerospace　Divisionは精製装置からいちいち燃料を抽出するのが嫌になったのか、あろうことか我々に精製装置を押し付けてきたのです!!彼らがこれを置いて去る時に「グッドラック」とつぶやいていたように聞こえたのは気のせいでしょうか。}
+// {@description =C7 Aerospace Division had issues piping the fuel from the refinery, so they brought the refinery tanks to us! It sounded like they muttered "Good luck.." as they dropped off these parts.}
+
+@PART[mk3FuselageLFO_50]
+{@description = 膨大な燃料を必要としないレアケース用}
+// {@description =For that rare moment when your fuel needs are less than ludicrous.}
+
+@PART[mk3FuselageLFO_25]
+{@description = カーゴベイのせいで機体に余裕が無い時の為のコンパクトな燃料タンクだよ!}
+// {@description =A compact fuel tank for when the rest of your craft is taken up by cargo bays!}
+
+@PART[mk3FuselageLFO_100]
+{@description = ロケット燃料がなみなみと満たされています。C7　Aerospaceの納入業者であるEkson-Kobilもこのタンクはとても気密性が高いと認めています。}
+// {@description = Filled to the brim with Rocket Fuel, C7 Aerospace's supplier Ekson-Kobil have assured us that this tank is absolutely airtight.}
+
+@PART[mk3CrewCabin]
+{@description = このモジュールは16人ものKerbal達を収納できます。まさに宇宙旅行のスーパーエコノミークラスです。手荷物のみ持ち込みが可能ですが、それ以上のものを運ぶ際はMk3　Cargo　Baysを使ってください。}
+// {@description = At a capacity of 16 Kerbals, the Mk3 Passenger module is known in the Astronaut Complex breakrooms as the "Super Economy" class for spacetravel and allows only carry-on baggage. Any checked or emotional baggage may require one of the Mk3 Cargo Bays.}
+
+//@PART[mk3CargoBayS]
+//{@description = もともとRockmax X200-16タンクが搬入された時に破棄したこのタンクを、後任のエンジニアが貨物庫としてを再利用することを提案しました。上司は直ちに彼を他の部署に配置換えし、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです!}
+// {@description = Originally we threw away the container the Rockmax X200-16 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!}
+
+//@PART[mk3CargoBayM]
+//{@description =もともとRockmax X200-32タンクが搬入された時に破棄したこのタンクを、後任のエンジニアが貨物庫としてを再利用することを提案しました。上司は直ちに彼を他の部署に配置換えし、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです!}
+// {@description = Originally we threw away the container the Rockmax X200-32 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!}
+
+//@PART[mk3CargoBayL]
+//{@description =もともとRockmax X200-64タンクが搬入された時に破棄したこのタンクを、後任のエンジニアが貨物庫としてを再利用することを提案しました。上司は直ちに彼を他の部署に配置換えし、その途端にこのタンクを貨物庫として再利用するという素晴らしいアイデアを思いついたのです!}
+// {@descripton = Originally we threw away the container the Rockmax Jumbo-64 tank came in, then one day a bright and upcoming engineer suggested we reuse them. He was promptly reallocated to another department and his boss came up with the brilliant idea of reusing these containers as cargo bays!}
+
+@PART[adapterSize3-Mk3]
+{@description = 大型ロケットからスーパーデッカイ飛行機に変身する為のアダプターさ!}
+// {@description = An adapter for when your craft turns from a massive rocket into a gargantuan plane!}
+
+@PART[adapterMk3-Size2Slant]
+{@description = レンガじゃ届かないような高さにあなたの機体を打ち上げよう!}
+// {@description = Makes your craft hang in the air like bricks don't!}
+
+@PART[adapterMk3-Size2]
+{@description = 完璧なまでに計算された美しくそして凄まじく壊れやすいこのパーツは、Mk3規格と2.5m規格をスムーズに結合させるというあなたの野心的好奇心を満たすことでしょう。…もしくは多少の燃料とともに異なるサイズのパーツのギャップを解消させることもできます。…どちらのために使うかはあなたのご自由に。}
+// {@description = Perfectly pointy, carefully curved and devastatingly destructive, this Mk3 to 2.5m adapter can satisfy your wildest of dreams. Or it'll let you bridge the gaps between parts on your craft while giving you a bit of fuel... Your choice.}
+
+
+@PART[adapterMk3-Mk2]
+{@description = エンジニアたちは余ったMk2パーツを新しい航空機用胴体にのアダプターに使うべきだと主張しました。とても過激なデザインをしていますが、全く形の異なる2つのパーツを流線型に繋げるにはこれしかなかったのです。しばしば子どもたちの職場体験時に滑り台として使われています。}
+// {@description = Our engineers insisted on a way to reuse Mk2 parts on the new Fuselage system. Manufacturing a streamlined adapter despite the considerable difference of the two cross sections required quite a radical design. It is often used as a slide on Take Your Kids to Work Day.}
+
+@PART[mk3Cockpit_Shuttle]
+{@description = 不死身の冒険者のためのコクピットです。母星を救うためにKerbal達を小惑星に送り込むミッションに適しています。※内装はまだ発注途上です。}
+// {@description = A cockpit for those die hard explorers. Especially useful when transporting extra crew to a remote rock to save the day. Note: IVA still in shipping and customs.
+
+@PART[adapterSize2-Mk2]
+{@description = ロケットなのかスペースプレーンなのか決めきれない？どちらでもあるってことで良いじゃないですか。 }
+// {@description = When you can't decide between a rocket and a spaceplane, why not both? }
+
+@PART[adapterSize2-Size1]
+{@description = Rockomax社のアダプターがその使用目的をきちんと果たし人気を博している間、C7社の技術者達は自分たちならもっとうまく出来たはずだと考えていました。　このC7社が自社生産した製品は、より長いフレームに燃料タンクを統合するといった改良がなされています。}
+// {@description = While the popular Rockomax Adapter has served its purpose fairly well over the years, C7 engineers thought they could do better. Improvements of this in-house product include an integrated fuel tank and a longer structural frame. }
+
+@PART[adapterSize2-Size1Slant]
+{@description = Rockomax社のアダプターがその使用目的をきちんと果たし人気を博している間、C7社の技術者達は自分たちならもっとうまく出来たはずだと考えていました。 このC7社が自社生産した製品は、より長いフレームに燃料タンクを統合するといった改良がなされています。 }
+// {@description = While the popular Rockomax Adapter has served its purpose fairly well over the years, C7 engineers thought they could do better. Improvements of this in-house product include an integrated fuel tank and a longer structural frame. }
+
+
+
+///0.25からのパーツ///
+@PART[MK1IntakeFuselage]
+{@description = Mk1型航空機用胴体でもこのモデルは燃料が搭載できませんが、効率化されたエアインテークが内蔵されています。}
+// {@description = This version of the Mk1 Fuselage module carries no fuel, but is fitted with a streamlined air intake. }
+
+@PART[shockConeIntake]
+{@description = デルタ翼や標準ノーズコーンといった広くご愛用いただいているパーツを世に放ったC7エアロスペースが送りますのは、衝撃的新製品のエアインテークです！}
+// {@description = A shocking new intake from the C7 Aerospace Division that brought you much adored parts such as the Delta Wing and the Standard Nosecone!}
+
+@PART[mk2FuselageShortMono]
+{@description = この航空機用胴体は最新の空気力学が取り入れられているのが特徴です。このおかげで単に飛行中に分解しないだけでなく、流線型のデザインによりあなたの航空機はずっと早くなることでしょう！単元推進剤をなみなみと満たしており姿勢制御機能のニーズに応えます！}
+// {@description = This airframe fuselage features the latest in lifting technology. Not only does it stay together during flight, it's sleek design makes your plane just that much speedier! Bursting to the brim with Monopropellant for all your attitude control needs!}
+
+
+@PART[mk2FuselageShortLFO]
+{@description = この航空機用胴体は最新の空気力学が取り入れられているのが特徴です。このおかげで単に飛行中に分解しないだけでなく、流線型のデザインによりあなたの航空機はずっと早くなることでしょう！液体燃料に加えて、必要な量の酸化剤を搭載できます。}
+// {@description = This airframe fuselage features the latest in lifting technology. Not only does it stay together during flight, it's sleek design makes your plane just that much speedier! Now comes with at least 100% more Oxidiser.}
+
+@PART[mk2FuselageShortLiquid]
+{@description = この航空機用胴体は最新の空気力学が取り入れられているのが特徴です。このおかげで単に飛行中に分解しないだけでなく、流線型のデザインによりあなたの航空機はずっと早くなることでしょう！液体燃料だけを貯蔵します。}
+// {@description = This airframe fuselage features the latest in lifting technology. Not only does it stay together during flight, it's sleek design makes your plane just that much speedier! Only carries Liquid Fuel.}
+
+@PART[mk2FuselageLongLFO]
+{@description = この航空機用胴体は最新の空気力学が取り入れられているのが特徴です。このおかげで単に飛行中に分解しないだけでなく、流線型のデザインによりあなたの航空機はずっと早くなることでしょう！液体燃料に加えて、必要な量の酸化剤を搭載できます。}
+// {@description = This airframe fuselage features the latest in lifting technology. Not only does it stay together during flight, it's sleek design makes your plane just that much speedier! Now comes with at least 100% more Oxidiser.}
+
+@PART[mk2Fuselage]
+{@description = この航空機用胴体は最新の空気力学が取り入れられているのが特徴です。このおかげで単に飛行中に分解しないだけでなく、流線型のデザインによりあなたの航空機はずっと早くなることでしょう！液体燃料だけを貯蔵します。}
+// {@description = This airframe fuselage features the latest in lifting technology. Not only does it stay together during flight, it's sleek design makes your plane just that much speedier! Only carries Liquid Fuel.}
+
+@PART[mk2DroneCore]
+{@description = 次世代を担うMk2シリーズの安全率に関する大掛かりな研究と試験を行っている途中、C7エアロスペースの技術者は試作品のテストに必要な人員を絶え間なく募集し続けなければいけないのにうんざりしてしまい、通信機越しに絶叫することを除いてはKerbalと同じ役目を果たせるような自律AIを開発することにしました。これは賛否両論を巻き起こし、ある人は宇宙開発に対するC7の姿勢は軟弱だと批判し、また一方ではイノベーションだとして祭り上げる人々もいましたが、AIがいずれ自我を持ち創造主たる我々に楯突くのではないかと恐れるあまり地下壕に立て篭もる一派も現れました。今までのところC7は自我を持つAIが引き起こす大惨事への関与を強く否定しています。}
+// {@description = After extensive research and testing to improve the safety factor of next-generation modules for their Mk2 series, engineers at C7 Aerospace got fed up with having to constantly find new recruits willing to test their prototypes, and decided to develop an autonomous AI capable of doing the same job, only with a lot less screaming over the comms link. This was met with divided opinions, some criticizing C7 as taking the "booooring" route, others praising them for the innovation, while yet others reacted by shutting themselves in bunkers in anticipation of the time when these units will gain sentience and turn on their creators. C7 has vehemently denied any involvement in all sentient-AI-related catastrophes so far.}
+
+@PART[mk2DockingPort]
+{@description = この新しいClamp-O-Tronブランドのドッキングポートは、一液式燃料タンクを内蔵しており、あなたの全てのドッキングニーズにお答えします。}
+// {@description = The new Clamp-O-Tron brand docking port comes complete with integrated monopropellant tanks for all your docking needs.}
+
+@PART[mk2CrewCabin]
+{@description = Mk2シリーズに適合するサイズの、コンパクトで環境に配慮した人員輸送モジュールです。80%が航空機に使用された部品のリサイクルでできています。C7エアロスペースの技術者は、すべての再利用部品は組み立て前に念入りに洗浄しているためモジュール内部や周囲から妙な臭いがすることに製造元は一切関係がないと断言しました。}
+// {@description = A Mk2 Profile Compliant, compact and eco-friendly crew transportation module, made from up to 80% recycled aircraft components. C7 Engineers insist that all recycled components were meticulously scrubbed clean before assembly, and take no responsibility for any odd smells that may be detected inside and/or around the unit.}
+
+@PART[mk2Cockpit_Standard]
+{@description = Kerbal一人用では無く、二人用です！C7エアロスペースの愛すべき人達の手によるこの矛先のようなMk2のデザインは、空と呼ばれるあの大きな青を貫くはずです。}
+// {@description = Fits not one, but two Kerbals! This spearhead-shaped new Mk2 design from the lovable folks over at the C7 Aerospace Division should help you pierce the great blue yonder known as the Sky.}
+
+@PART[mk2Cockpit_Inline]
+{@description = “不注意にも”Mk2コックピットの機首をへし折ってしまった時、C7エアロスペースの技術者はこのデザインもとても機能的じゃないかと考えました。すぐさま折れ残った部分をハンマーで叩いて形を整えたので、これで直列にコックピットを並べたいというニーズに応えられるようになりました。}
+// {@description = After 'accidentally' snapping the nose off of the Mk2 Cockpit, the engineers over at the C7 Aerospace Division realised that such a design looked quite functional. They quickly hammered out the following part and spruced it up for all your inline spaceplane cockpit needs!}
+
+@PART[mk2CargoBayS]
+{@description = キューブサットやイオン推進衛星、Kerbalといった小さい物体を宇宙に送り出したいと思ったことはありませんか？そんなあなたにこのパーツがピッタリです！(免責事項：C7エアロスペースはカーゴベイからKerbalを宇宙空間に放り出すことを容認しているわけではありません。)}
+// {@description = Ever wanted to deploy small items into space such as Cubesats, ion-powered Probes or Kerbals? This is just the part for you! (Disclaimer: C7 Aerospace does not condone the deployment of Kerbals into space via Cargo Bays.)}
+
+@PART[mk2CargoBayL]
+{@description = 長い方のカーゴベイです。時々全長はどれくらいかという質問がありますが、正確に短い方の倍の長さがあります。}
+// {@description = The longer version of the shorter cargo bay. Some ask us just how long is it? It's exactly double the length of the other one.}
+
+@PART[mk2SpacePlaneAdapter]
+{@description = ノーブランドの、Mk2シリーズをMk1シリーズに変換するアダプターです。}
+// {@description = Generic Mk2 to Mk1 adapter.}
+
+@PART[mk2_1m_AdapterLong]
+{@description = Mk1とMk2の変換アダプターの乾燥機に長く入れすぎて縮んでしまったものを引き伸ばしました。}
+// {@description = A generic Mk1 to Mk2 adapter that was left to dry a bit too long and stretched out.}
+
+@PART[mk2_1m_Bicoupler]
+{@description = 一つのエンジンだけじゃ足りない？そんな意見を取り入れました！}
+// {@description = One engine is not enough? We got you covered!}
+
+@PART[IntakeRadialLong]
+{@description = このエアインテークがあれば、SSTO設計者が限界まで空気をエンジンに取り入れようと企てる中で馬鹿げた小細工を思いつくことはもうなくなります。}
+// {@description = This intake adresses those sometimes absurd contraptions that SSTO engineers designed in an attempt to pump more and more air into their engines.}
+
+
+////★★======== Aero ========
+@PART[sweptWing2]
+//{@description = This wing has been constructed out of surplus wing components. Comes complete with "like new" finish.}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。}
+
+@PART[sweptWing1]
+//{@description = This wing has been constructed out of surplus wing components. Comes complete with "like new" finish.}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。}
+
+@PART[structuralWing4]
+//{@description = This wing has been constructed out of surplus wing components. Comes complete with "like new" finish.}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。}
+
+@PART[structuralWing3]
+//{@description = This wing has been constructed out of surplus wing components. Comes complete with "like new" finish.}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。}
+
+@PART[structuralWing2]
+//{@description = This wing has been constructed out of surplus wing components. Comes complete with "like new" finish.}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。}
+
+@PART[structuralWing]
+//{@description =" This wing has been constructed of surplus wing components. Comes complete with ""like new"" finish. Intended uses include, very large canards, and leading edges of larger delta wings."}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。巨大カナードや大型デルタウイングの前縁としての使用が想定されています。}
+
+@PART[wingStrake]
+{@description = このストレーキは飛行機のもみあげみたいなものです。女の子たちはあなたに夢中になるでしょう！！}
+//{@description = Strakes are like sideburns for your plane. The girls will fall for you!}
+
+@PART[elevon5]
+{@description = これもありふれたエレボンの一つ....いや待て、後退角が付いてるぞ！！うぉおーーー！！！}
+//{@description = Just another one of these elevon things... wait, this one is swept! Wow!}
+
+@PART[smallCtrlSrf]
+//{@description =" Feel the need to attach an elevator, rudder or elivon to just about any darn surface you can get your mitts on? Well this part is for you. Made of mostly new factory parts. Warranty void if exposed to vacuum."}
+{@description = エレベーター、ラダーやエレボンを手の届く限りの所に付けまくりたいですか？ならこのパーツが答えになるでしょう。大部分が新品のパーツで制作されています。真空に晒した場合保証は無効です。}
+
+@PART[elevon3]
+{@description = 手持ちの中で最上級の材料で制作されているため、これらの操縦舵面は機体に取り付けられている間の作動が保証されています。しかしながら研究によると薄い大気中では少し機能が阻害される可能性があります。その場合の返金は致しかねます。}
+//{@description = Made from the finest materials at hand, these flight surfaces are guaranteed to operate while attached to the craft. However studies have shown that a lack of atmosphere *may* slightly impede function. No refunds.}
+
+@PART[elevon2]
+{@description = 手持ちの中で最上級の材料で制作されているため、これらの操縦舵面は機体に取り付けられている間の作動が保証されています。しかしながら研究によると薄い大気中では少し機能が阻害される可能性があります。その場合の返金は致しかねます。}
+//{@description = Made from the finest materials at hand, these flight surfaces are guaranteed to operate while attached to the craft. However studies have shown that a lack of atmosphere *may* slightly impede function. No refunds.}
+
+@PART[StandardCtrlSrf]
+{@description = 手持ちの中で最上級の材料で制作されているため、これらの操縦舵面は機体に取り付けられている間の作動が保証されています。しかしながら研究によると薄い大気中では少し機能が阻害される可能性があります。その場合の返金は致しかねます。}
+//{@description = Made from the finest materials at hand, these flight surfaces are guaranteed to operate while attached to the craft. However studies have shown that a lack of atmosphere *may* slightly impede function. No refunds.}
+
+@PART[delta_small]
+{@description = このデルタ翼は耐久テストと設計審査を難なくパスしました。主な理由として、どちらの試験も実際には実施されていないということが挙げられます。とにかく、比較的信頼性の高い翼として動作するはずです。}
+//{@description = This small delta wing has breezed through extensive stress tests and design revisions, mostly because it wasn't involved in any of those. In any case, it should work as a comparatively reliable lifting surface.}
+
+@PART[deltaWing]
+{@description = 標準的デルタ翼です。高い揚力と安定した重心で日頃のあなたのニーズに応えます。}
+//{@description = Standard Delta configuration wings. These wings provide high lift and a stable center of gravity for your everyday lifting needs.}
+
+@PART[wingConnector5]
+{@description = 翼を製造する工場のゴミ箱から拾ってきました。}
+//{@description = Found in a trash bin next to a wing factory.}
+
+@PART[wingConnector4]
+{@description = 翼を製造する工場のゴミ箱から拾ってきました。}
+//{@description = Found in a trash bin next to a wing factory.}
+
+@PART[wingConnector3]
+{@description = だいたい翼の形をした板です。自己責任でお使いください。}
+//{@description = A vaguely wing shaped board.}
+
+@PART[wingConnector2]
+{@description = だいたい翼の形をした板です。自己責任でお使いください。}
+//{@description = A vaguely wing shaped board. Use at your own risk.}
+
+@PART[wingConnector]
+//{@description = A vaguely wing shaped board. Use at your own risk.}
+{@description = だいたい翼の形をした板です。自己責任でお使いください。}
+/////////新パーツ↑////////
+
+
+////★★======== NASAmission ========
+
+
+@PART[Size3to2Adapter]
+{@description = このアダプタはKerbodynes社とRockomax社のパーツを接続するために使用されます。}
+//{@description = This adapter is used to bridge between Kerbodyne and Rockomax rocket bodies.}
+
+//@PART[Size3SmallTank]
+//{@description = Kerbodyne社の燃料タンクの4分の1の容量のバージョンです。}
+//{@description = A quarter capacity version of Kerbodyne's iconic fuel tank.}
+
+//@PART[Size3MediumTank]
+//{@description = Kerbodyne社の燃料タンクの半分の容量のバージョンです。}
+//{@description = A half capacity version of Kerbodyne's iconic fuel tank.}
+
+//@PART[Size3LargeTank]
+//{@description = Kerbodyne社製の超重量燃料タンクです。先進的なロケットで使用されるように設計されました。}
+//{@description = Kerbodyne's signature super heavy fuel tank. Designed to be used with their advanced rocket engines.}
+
+@PART[Size3EngineCluster]
+{@description = ロケットの一段目に使用されるために設計されたこのエンジンは、Kerbodyne社の4つのKS-25　rocketを使用しています。これは、単純にロケットのエンジンとノズルサイズを大きくするパターンから脱却した、最初のシリーズです。}
+//{@description = Designed for usage as a first stage, this engine uses four of Kerbodyne's KS-25 rocket motors. This is the first in a series of designs that move away from the pattern of simply increasing the engine and nozzle size on a rocket.}
+
+@PART[size3Decoupler]
+{@description = 建築物解体業者のO.M.B.は、本来は組み立てた建築物で分離を行う為に設計された爆発ボルトを、巨大なロケットを分離する用途に再利用しています。}
+//{@description = Originally designed to separate buildings that were stuck together, O.M.B has repurposed these explosive bolts for use in separating stacks of massive rockets.}
+
+@PART[Size3AdvancedEngine]
+{@description = このエンジンは、超強力なエンジンでありKerbodyne社の初の試みでありました。これ以降のモデルは、単一障害点（その単一箇所が働かないと、システム全体が障害となるような箇所を指す）を避けるために、複数のノズルを用いて設計するようになり、また製造コストも削減できるようになりました。}
+//{@description = This engine is Kerbodyne's first attempt at a super heavy lifting engine. Later models have been designed with multiple nozzles to prevent a single point of failure, and reduce manufacturing costs.}
+
+@PART[Size2LFB]
+{@description = この液体燃料ロケットエンジンシステムは、打ち上げ中に固体燃料エンジンに頼らず、より良い制御を可能にする為に設計されました。巨大な上昇力を得るために、改造したKR-1エンジンを2機使用しています。}
+//{@description = This liquid fuel booster system was designed to allow for finer control of launches, instead of relying solely on single engine solid rocket boosters.It employs two modified KR-1 engines as the source of its immense lifting power.}
+
+@PART[PotatoRoid]
+{@description = 大きな古い岩みたいだ。}
+//{@description = Big ole, rock like thing.}
+
+@PART[MassiveBooster]
+{@description = この超強力なブースターは、投棄後に回収されるように設計されています。一度回収され、修復され、次の打ち上げのために燃料補給されます。}
+//{@description = This super heavy booster is designed to be recovered after jettisoning. Once recovered, it is refurbished and refueled for another launch.}
+
+@PART[LaunchEscapeSystem]
+{@description = この固体燃料ロケットの塔は、誤作動をおこしたロケットからコマンドポッドを離れさせるように設計されています。}
+//{@description = This solid rocket tower is designed to wrench the command pod up and away from a malfunctioning rocket.}
+
+@PART[GrapplingDevice]
+{@description = Kerbal　Motion社のエンジニアは複雑な機械の中に落とした工具をどうやって回収するかという問題に長い間悩まされてきました。研究室の中で靴を逆さまにして振ることで異物を取り除く研修生を見て、開発チームは閃めいたのです!なぜロケットのパーツを逆さまにして揺らさなかったのでしょう。この保持アームはその需要を完全に満たし、重い機械すら持ち上げることが出来ます。工具を取り出す繊細な作業の他に、別の使用方法が発見されました。その使用方法は通称"Klaw"(claw-鉤爪をもじったもの?)と言います。}
+//{@description = Kerbal Motion engineers have long struggled with the problem of how to extract dropped tools from complicated machinery. After observing an intern cleaning out his shoes by turning them upside and shaking them inside the lab, our team was hit with a stroke of inspiration! Why not turn the rocket parts upside down and shake them? The grabbing arm perfectly filled this niche, and is quite capable of lifting heavy machinery. It has since found other uses, besides delicate tool extraction operations. AKA "The Klaw!"}
+
+
+
+
+////★★======== Aero ========
+
+
+@PART[AdvancedCanard]
+{@description = 我々のエンジニアは、このパーツは以前のものよりハイテクな感じのするデザインだから見た目通り性能も改善されたに違いないと考えている。}
+//{@description =" Our engineers thought this design looked ""high tech"" and therefore must be clear improvement on earlier models."}
+
+//@PART[airplaneTail]
+//{@description =" A simple aerodynamic tail for aircraft. Designed to fit onto all standard 1m attachments, this part is the embodiment of our ""Let's Fly"", line of parts."}
+//{@description = 飛行機用のシンプルな、気流を整えるテールパーツです。全ての標準的1mアタッチメントに適合するよう設計され、我々の「Let's　Fly」パーツシリーズを構成しています。}
+
+@PART[CanardController]
+//{@description =" Our engineers had a stroke of inspiration after ""visiting"" the kerlington production facilities. Introducing our new controllable canards. Warning, hard manuvering may cause unintended stage separation."}
+{@description = 我々の技術者はカーリントン製作所を入念に"見学"した後に閃きを得ました。新しい先尾翼の操縦舵面をご紹介しましょう。警告：激しく動かすと意図しない分離を引き起こす可能性があります。　}
+
+@PART[noseCone]
+//{@description =" Aerodynamic, lightweight and mostly non-explosive. As a reminder to all personnel operating nearby, this part is really sharp and it'd probably hurt if you fell on it."}
+{@description = 空力的に洗練され、軽量でほぼ爆発性はありません。近くで作業する人員への注意点として、このパーツはとても鋭いため上に落下すると怪我をする可能性があります。}
+
+
+@PART[rocketNoseCone]
+//{@description = A large nosecone for covering up exposed areas of big rockets.}
+{@description = 大型ロケットの先端部分を覆う大型ノーズコーンです。}
+
+@PART[standardNoseCone]
+//{@description = An aerodynamic nose cap. }
+{@description = 空力的に洗練されたノーズコーンです。}
+
+//@PART[sweptWing]
+//{@description =" A prototype swept back wing. Made of light weight composite materials. Guaranteed to generate lift, not guaranteed to ensure crew safety."}
+//{@description = プロトタイプの後退翼です。軽量複合素材でできています。揚力を生むことが保証されていますが、クルーの安全性についての保証はありません。}
+
+@PART[tailfin]
+//{@description = This tailfin has passed extensive modeling in our patented P.A.S system.(Paper Airplane Simulation). This fin has been blunted to prevent accidental dismemberment of installing technicians.}
+{@description = 我々の特許取得「紙飛行機シミュレーション」システムによりこの尾翼は詳細に解析されています。取り付け作業員の不意の負傷を防ぐため、前縁は丸められています。}
+
+@PART[winglet]
+//{@description = Nothing is really known about this thing. Use it at your own risk.}
+//{@description = これについては全く何も知られていません。使用は自己責任でお願いします。　}
+
+@PART[R8winglet]
+//{@description =" The R8 Active Control Winglet series marked the debut of Kerlington Model Rockets in the Spacecraft engineering world. These winglets are equipped with movable pivots, which allow them to swivel and act as control surfaces. This feature was considered a huge advancement in control technology and most agree that it made Kerlington staff and R8 fans simply unbearable to be around."}
+{@description = R8アクティブコントロールウイングレットシリーズはカーリントン製ロケットに使用され宇宙船工学の世界に登場しました。このウイングレットは可動軸を持ち、首振りすることで操縦翼面と同じ働きをします。操縦技術にとても大きな進歩をもたらしたため、沢山の人々がこの技術はカーリントンのスタッフとR8ファンを鼻持ちならないくらい増長させたと考えています。}
+
+@PART[winglet3]
+//{@description = The Delta-Deluxe Winglet is a large aerodynamic surface with a small built-in aileron. It is very lightweight and offers more lift than the AV-R8 but the small control surface area means it is not as quick to turn.}
+{@description = デルタデラックスウイングレットは小さなエルロンのついた大きな翼です。とても軽量でAV-R8より大きな揚力を発生しますが、操縦舵面が小さいため旋回性能は劣ります。}
+
+
+////★★-+-+-+ Command +-+-+-
+
+
+@PART[advSasModule]
+//{@description =" The inline reaction wheel system uses a series of spinning discs that are going ""Very Fast"", to generate the torque necessary to control a spacecraft. Comes complete with a built in flight computer. Please do not attempt to service this device while it is running."}
+{@description = 直列リアクションホイールシステムは、宇宙船を制御するのに必要なトルクを生み出す複数の高速回転するフライホイールで構成されています。内蔵のフライトコンピュータで制御されています。回転している間はメンテナンスを行わないでください。}
+
+@PART[asasmodule1-2]
+//{@description =" After many years of research, STEADLER Corps rocket scientists discovered that Kerbal crewmembers just can't be trusted to keep a spacecraft under control. The Advanced S.A.S Module adresses that issue by correcting flight controls continuously. It is highly recommended that crewmembers are kept unaware of the presence of such a device, as experience shows that many Kerbals will see that as a 'challenge to their flying prowess'."}
+{@description = 長年の研究の結果、ステッドラー社のロケット科学者がKerbalのクルーだけでは宇宙船を制御下に置くには信頼性が足りないことを発見しました。先進SASモジュールは操縦操作を常に修正することでこの問題に対応します。実験ではKerbalクルーはこういった装置を操縦技量への侮辱だと捉える傾向があるため、クルーがこのモジュールの存在に気づかないようにしておくことが強く推奨されます。}
+
+//@PART[avionicsNoseCone]
+//{@description =" The latest in research and developement enabled the development of this little marvel, The Sensor Array Computing Nose Cone. It is outfitted with many ""quality"" sensors and a computer salvaged from the highest quality aircraft scrap, enabling it to collect atmospheric data while in flight. "}
+//{@description = 最新の研究開発によりこのセンサーアレイ内蔵ノーズコーンが生み出されました。飛行機のスクラップからかき集めた沢山の「高品質」センサーとコンピュータを装備しているため、飛行中に大気のデータを収集することができます。}
+
+@PART[crewCabin]
+//{@description =" The HSC was an invention of necessity - how do we store 4 Kerbals on-orbit without any real provisions for return? Who needed this remains a mystery, as do his motivations."}
+{@description = どうやれば軌道上に4人を必要な食料もなしに住まわせる事ができるというのでしょうか？居住モジュールは必要性に迫られての発明です。ですが誰がこれを解決する必要があったのか、動機も含め不明なままです。}
+
+@PART[cupola]
+//{@description =" The PPD-12 was developed to provide a high visibility control room for orbital stations, and a place for thoughtful Kerbals to contemplate the beauty of the cosmos."}
+{@description = PPD-12は宇宙ステーションに視認性の高い司令室を備えるべく開発されました。また思慮深いKerbalが宇宙の美しさについて思いふける場所にもなります。}
+
+@PART[landerCabinSmall]
+//{@description =" This capsule was designed for lightweight non-atmospheric landers, and seats a single occupant. Features a novel full-body crumple-zone technology. "}
+{@description = このカプセルは大気が存在しない星への軽量単座着陸船としてデザインされました。新しい衝撃吸収技術が全面に施されているのが特徴です。}
+
+@PART[Mark1Cockpit]
+//{@description = C7 Aerospace is proud to present our second generation cockpit. This unit is equipped to ensure survival in some of the worst conditions possible. The extra re-enforcement has slightly increased the weight.}
+{@description = C7エアロスペースは自信を持って我々の第二世代コクピットを発表します。このユニットは想定される最悪の状況でも生存を保障するよう作られています。追加の補強部材により少し重量が増えています。}
+
+@PART[Mark2Cockpit]
+//{@description = A next generation inline cockpit. Designed for sleek high speed aircraft.}
+{@description = 次世代の直列コクピットです。流線型の高速飛行機用にデザインされています。}
+
+@PART[mark3Cockpit]
+//{@description =" The Mk 3 Cockpit is the pinnacle of airframe cockpit technology. In the rare event of a Kerbin Penetrating anomaly, this cockpit will ensure your Kerbs are interred according to health and sanitation guidelines."}
+{@description = Mk3コクピットは飛行機コクピット製造技術の頂点に位置します。もしKerbinが異常事態に陥っても、この棺桶は健康と衛生ガイドラインに従ってKerbalを埋葬できることが保証されています。}
+
+@PART[Mark1-2Pod]
+//{@description = This modern cockpit is designed to be fully re-useable. Its spacious cabin can hold a maximum of 3 crew.}
+{@description = この近代的コクピットは完全に再使用が可能なようにデザインされました。広いキャビンは最大3名のクルーを収容できます。}
+
+@PART[mk1pod]
+//{@description =" Originally built as a placeholder for a demonstration mock-up of a rocket, the Mk1 Command Pod was heralded as a far safer and more reliable option than its predecessors by rocket scientists throughout the world. It is now commonly seen in active service."}
+{@description = もともとロケットのモックアップ用の展示品として製作されましたが、Mk1コマンドポッドは世界中のロケット科学者がそれまでに設計したものよりとても安全で信頼性が高いため歓迎され使われるようになりました。現役ロケットに使われているのがよく見られます。}
+
+@PART[mk2LanderCabin]
+//{@description =" This cozy capsule seats two, and is very lightweight. However, don't expect it to survive atmospheric entry or even a sneeze."}
+{@description = この居心地良いカプセルは二人乗りでとても軽量です。ですが、大気圏再突入やくしゃみの衝撃に耐えられると思わないでください。}
+
+@PART[probeCoreCube]
+//{@description =" QBE is a sturdy, cubic, and relatively lightweight probe core. It also can survive higher heat loads than its counterparts. Its simplistic shape also appeals to modern art collectors. Truly, something for everyone."}
+{@description = QBEは頑丈で立方体形状の、比較的軽量な人工衛星コアです。他の機種に比べ高熱に耐えることができます。シンプルな形状は現代美術収集家にも好まれます。どんな方にもお勧めです。}
+
+@PART[probeCoreHex]
+//{@description = The HECS core is a re-casing of the popular OKTO core into a form more suitable for Kerbals who think 3-fold symmetry is way more futuristic.}
+{@description = HECSコアは人気のOKTOコアを、3回対称の形が近未来的だと考えるKerbalにぴったりの形に変形したものです。}
+
+@PART[probeCoreOcto]
+//{@description =" OKTO is an excellent beginner's level probe core, with simple geometry and lots of flat surfaces for attaching equipment."}
+{@description = OKTOは優秀なビギナーレベルの人工衛星コアで、シンプルな形状に加え機器を取り付けることができる沢山の平面があります。}
+
+@PART[probeCoreOcto2]
+//{@description =" A flatter variant of the OKTO, OKTO2 was most certainly not concieved when one of our engineers sat on a standard OKTO."}
+{@description = OKTOのより平べったい機種です。OKTO2は技術者がOKTOに腰掛けて潰したものから開発されたわけでは決してありません。}
+
+@PART[probeCoreSphere]
+//{@description =" The Stayputnik offers the ultimate solution in crew safety. A lightweight sphere equipped with remote receivers and tiny gyros for orientation, it carries no crew at all, thus keeping them perfectly safe from all harm. This device does require electricity to operate however, and will cease to function if the power runs out. The built-in batteries should keep it going for about 10 minutes."}
+{@description = Stayputnikはクルーの安全性に対する究極の解決策です。軽量の球に受信機と小さな姿勢制御ジャイロを内蔵し、クルーは必要としません。つまりどんな危険からも完璧にクルーを守ることができます。しかしこの機器は稼働に電気を必要とし、電力が尽きると動作を停止します。内蔵バッテリーだけだと約10分間の動作です。}
+
+@PART[probeStackLarge]
+//{@description =" A larger version of the popular RGU system, developed in partnership with the Rockomax conglomerate."}
+{@description = 人気の遠隔誘導システムの大型版で、Rockomaxグループの協力により開発されました。}
+
+@PART[probeStackSmall]
+//{@description =" Developed at the behest of H.R. departments everywhere, the RGU not only allows for control of unmanned rockets, it's also equipped with its own reaction wheels and is totally hypoallergenic."}
+{@description = 人事課の所構わぬ強い要求により開発されました。遠隔誘導システムは無人宇宙船に指令を送るだけでなく、内蔵のリアクションホイールで無人制御を行うため、全くアレルギー症状の影響を受けません。}
+
+@PART[sasModule]
+//{@description =" A medium sized reaction wheel. This unit contains weighted wheels that spin very quickly to add assistive torque to a spacecraft, at the cost of electric charge."}
+{@description = 中サイズのリアクションホイールです。電力を消費して高速回転するフライホイールを内蔵し、宇宙船にトルクを加えます。}
+
+//@PART[seatExternalCmd]
+//{@description =" The EAS-1 External Command Seat provides all the controls needed to fully operate a spacecraft, just like a command pod, but without such needless frivolities as ""pressurized interiors"", or ""seat belts"". It's bare-bones, pedal-to-the-metal efficiency at its finest. "}
+//{@description = EAS-1外部操縦席はコマンドポッドのように宇宙船操縦に必要な機能を全て備えていますが、無用な与圧キャビンやシートベルトはありません。無骨な、ペダルに至るまで金属製の合理的デザインが至高なのです。}
+
+
+////★★-+-+-+ Electrical +-+-+-
+
+
+@PART[batteryBank]
+//{@description =" The Z-1k is a stackable battery bank, with ten times the power capacity of the Z-100."}
+{@description = Z-1kは積み重ね可能なバッテリーバンクで、Z-100の10倍の容量があります。}
+
+@PART[batteryBankLarge]
+//{@description =" New advances in surge control technology made The Z-4K, the largest battery pack ever put into production a reality. While Zaltonic admits intense electrical discharges can be really cool, shorting the Z-4K's contacts should probably be avoided. "}
+{@description = サージ制御技術の新たな進歩により史上最大のバッテリーパックZ-4Kの生産が実現しました。Zaltonicも激しい放電はとても素敵だと認めますが、Z-4Kの端子をショートすることは避けるべきです。}
+
+@PART[batteryBankMini]
+//{@description =" The Z-200 is a stackable variant of the Z-100 battery pack, with increased capacity. In emergency situations, please refrain from ""reversing the polarity"". "}
+{@description = Z-200はZ-100バッテリーパックを積み重ねたもので、容量が増えました。緊急時は+-の間違いにご注意ください。}
+
+@PART[batteryPack]
+//{@description = The Z-100 battery pack is the standard model for electrical applications. Holds two (2) AAAA batteries and holds a maximum 100 units of charge.}
+{@description = Z-100バッテリーパックは電子装置に使われる標準モデルです。AAAAバッテリー（単6電池）二本を内蔵し、100の電力を貯めることができます。}
+
+@PART[ksp_r_largeBatteryPack]
+//{@description =" The Z-400 battery pack is a versatile, compact electrical charge storage solution designed for heavier loads then AAAA batteries can handle. Holds one E-size battery with a maximum of 400 units of charge."}
+{@description = Z-400バッテリーパックはAAAAバッテリーが供給できる限界より重い負荷に対するソリューションとしてデザインされた多用途でコンパクトな電力源です。Eサイズのバッテリーを内蔵し、400の電力を貯めることができます。}
+
+//@PART[largeSolarPanel]
+//{@description =" The single largest solar array available for purchase, the Gigantor XL offers tremendous generation potential from a compact initial package."}
+//{@description = 市販の唯一最大のソーラーパネルアレイです。Gigantor XLはコンパクトな収納状態にもかかわらずとてつもない電力の発電が可能です。}
+
+@PART[rtg]
+//{@description =" Through exploitation of the natural decay of Blutonium-238, this elegantly simple power generator can provide consistent, stable power for decades. It's also waterproof and dishwasher-safe."}
+{@description = この発電機はブルトニウム238の自然崩壊を利用する洗練されたシンプルな仕組みです。確実に、安定した電力を何十年も供給します。防水なので食器洗い機も使用可能です。}
+
+//@PART[solarPanels1]
+//{@description =" Probodobodyne branded Photovoltaic Panels are the world standard for power generation, from your own home to the stars. The SP model comes with a protective shroud, allowing recovery when it's no longer needed."}
+//{@description = Probodobodyneブランドの太陽電池パネルは発電用途においては家庭から宇宙まで使われる世界標準です。SPモデルは防護容器に入っており、使い終わった時でも回収が可能です。}
+
+//@PART[solarPanels2]
+//{@description = The alternate configuration of the SP Model Photovoltaic Panels.}
+//{@description = SPモデルの太陽電池パネルの配列を変えたものです。}
+
+@PART[solarPanels3]
+//{@description =" The OX-4 is similar in design to the SP series solar panels, but without the heavy casing."}
+{@description = OX-4はSPシリーズ太陽電池パネルに似ていますが、重い防護容器はついていません。}
+
+//@PART[solarPanels4]
+//{@description =" The OX-4 is similar in design to the SP series solar panels, but without the heavy casing."}
+//{@description = OX-4はSPシリーズ太陽電池パネルに似ていますが、重い防護容器はついていません。}
+
+@PART[solarPanels5]
+//{@description =" The OX-STAT solar panel is a simple panel with no sun-tracking or deployment mechanics. As a result, it is very light and cheap."}
+{@description = OX-STAT太陽電池パネルは展開や首振りメカニズムを持たないシンプルなパネルです。その代わりにとても軽量で安価です。 }
+
+
+////★★-+-+-+ Engine +-+-+-
+
+
+@PART[RAPIER]
+//{@description =" The R.A.P.I.E.R. (Reactive Alternate-Propellant Intelligent Engine for Rockets) is a joint venture between C7 Aerospace and the Rockomax Conglomerate. Designed to fill a gap in the design requirements for sustainable single stage to orbit aircraft, this engine combines the best of rocket and air-breathing thrust technology. "}
+{@description = R.A.P.I.E.R.(飛翔体用インテリジェント代替推進材反応エンジン)はC7エアロスペースとRockomax社での合弁事業による産物です。繰り返し使用可能な単段式宇宙輸送機(SSTO)の設計に必要な要求を満たす為に開発された、ロケットと吸気式推進装置の技術の粋を集めたエンジンです。}
+
+@PART[engineLargeSkipper]
+//{@description =" The smaller sibling of the Mainsail, the Skipper's power rivals that of... large cities. Combining high thrust with reasonable efficiency, this engine excels when used as a mid-stage booster."}
+{@description = Mainsailの弟分であるSkipperは…そうですね、大都市にも匹敵すると言ってもいいほどのパワーを生み出します。高い推力とまあまあの効率を持ち、中段ブースター用途に優れています。}
+
+//@PART[ionEngine]
+//{@description =" By emitting ionized xenon gas through a small thruster port, the PB-ION can produce incredibly efficient propulsion, but with a downside of very low thrust and high expense. The general perception of this engine as being powered by ""witchcraft"" has unfortunately given it a sour reputation."}
+//{@description = イオン化されたキセノンガスを小さな推進ポートから噴射することで、PB-IONは信じられないくらい効率的に推進力を生み出します。短所はとても小さな推力とコストです。一般的にはこのエンジンは魔術で動いていると考えられており、不幸にも悪評をもたらしてしまっています。}
+
+@PART[JetEngine]
+//{@description = A standard air breathing engine. This model utilizes limited range thrust vectoring. This engine is suitable for normal crusing speeds and altitudes.}
+{@description = 標準的な吸気式エンジンです。限定的ですが推力偏向が可能です。一般的な巡航速度と高度での使用に適しています。}
+
+//@PART[liquidEngine]
+//{@description =" Although criticized by some due to its not unsignificant use of so-called ""pieces found lying about"", the LV-T series has proven itself as a comparatively reliable engine. The T30 model boasts a failure ratio below the 50% mark. This has been considered a major improvement over previous models by engineers and LV-T enthusiasts."}
+//{@description = 部品がばらばらになるような無意味な使われ方により酷評されたこともありますが、LV-Tシリーズは自分たちが比較的信頼できるエンジンだということを証明し続けて来ました。T30型は50%を超える成功率を誇ります。これはエンジニアとLV-Tシリーズの愛好家による旧モデルからの大幅な改良の成果です。}
+
+@PART[liquidEngine1-2]
+//{@description =" A monster of an engine for heavy lifting purposes, the Mainsail's power rivals that of entire small nations."}
+{@description = 重量物を持ち上げる怪物エンジンです。Mainsailのパワーは小さな国家丸ごとに匹敵します。}
+
+//@PART[liquidEngine2]
+//{@description =" The LV-T45 engine was considered another breakthrough in the LV-T series, due to its Thrust Vectoring feature. The LV-T45 can deflect its thrust to aid in craft control. All these added mechanics however, make for a slightly smaller and less powerful engine in comparison with earlier LV-T models."}
+//{@description = LV-T45エンジンは推力偏向機能を持ち、LV-Tシリーズの異なる進化系だと考えられています。推力を偏向することで、宇宙船を制御することができます。こういった追加の機構により、これまでのモデルに比べ少し大きさとパワーが小さくなりました。}
+
+@PART[liquidEngine2-2]
+//{@description =" A more reasonable engine for rough economic times, the Poodle engine doubles as a BBQ when at low power."}
+{@description = 苦しい経済状況の時のためのより安価なエンジンです。Poodleエンジンはパワーを絞ればBBQにも使えます。}
+
+@PART[liquidEngine3]
+//{@description =" The 909 model was initially received with some skepticism by spacecraft engineers, as it defied the long-standing convention that ""More Power!"" is always better. Despite this, the 909 series has found its place in the spacecraft construction world, being particularly useful as a final stage and landing engine."}
+{@description = 909モデルは当初、長らく主流を占めていた「パワーが全て」という論調に反するため宇宙船エンジニアには懐疑的に受け止められていました。しかしながら、最終段や着陸用途に特に役立つことから宇宙船建造に重要な役割を占めています。}
+
+@PART[liquidEngineMini]
+//{@description =" The 48-7S may be small, but it packs quite a punch for its size. This little engine is a testament to how larger does not always means more advanced, at least according to Rockomax's marketing department. The box it comes in is pretty cool, in any case."}
+{@description = 48-7Sは小さいエンジンですが、サイズの割にとても強いパワーを秘めています。Rockomax社の営業トークによると、この小さなエンジンは大きければ先進的とは限らないということの証だそうです。ともかく、パッケージはとてもイカしています。 }
+
+@PART[microEngine]
+//{@description =" What is this, an engine for ants?"}
+{@description = なにこれ？アリ用エンジン？}
+
+//@PART[nuclearEngine]
+//{@description =" Despite the big scary trefoil painted onto the side of this engine, its radioactive exhaust, and tendency to overheat, the LV-N Atomic Rocket Motor is harmless. Mostly."}
+//{@description = 側面に恐ろしげな放射能マークがペイントされていたり、放射性排煙を出したりオーバーヒートの傾向もありますが、LV-N原子力ロケットモーターは無害です。ほとんど無害。}
+
+@PART[radialEngineMini]
+//{@description =" Adapted to appease engineers who were outraged at the puniness of the LV-1, the radial mounted LV-1R offers an appealing solution: ""Just add more"". Point away from face."}
+{@description = LV-1の貧弱さに激怒したエンジニアをなだめるためには、側面マウントのLV-1Rを「もっと沢山つければ良い」というのが魅力的な解決策です。顔面に当たらないようご注意ください。}
+
+@PART[radialLiquidEngine1-2]
+//{@description =" After an intensive search for an engineer crazy enough to plan and build a revolutionary new engine type, researchers turned to  renowned engineer Eumon Kerman, one of the top minds in the industry. He failed miserably at the job, and this is what we ended up with."}
+{@description = 革命的に進歩した新たなエンジンを設計製作するほどぶっ飛んだエンジニアの徹底的な捜索の末に、工業界の最も優秀な頭脳の一人、かの有名なEumon　Kermanに行き着きました。ですが彼は無様に失敗し、このエンジンがプロジェクトの成れの果てです。}
+
+@PART[sepMotor1]
+//{@description =" A small canister filled with what appears to be solid rocket fuel. Although not much of a step forward in terms of raw power, Kerbal Scientists have slowly warmed up to the Sepratron I's many uses, such as pushing things away. For best results, angle before use. "}
+{@description = 固体燃料のようなものが詰まった小さな容器です。推進力という面では大した能力を持ちませんが、Kerbalの科学者は色々活用できるという点でSepratron　Iを好むようになりました。例えばブースターを引き離すとか。最高の結果を得るには、傾けて設置するほうがよいです。}
+
+@PART[smallRadialEngine]
+//{@description =" Tiny engine! But very useful, good for craft where larger radial engines won't fit. Although, you may need more of them to lift larger payloads."}
+{@description = ちっさいエンジン！ですがとても有用で、大型の側面マウントエンジンがつけられない宇宙船に適しています。しかしながら、重いペイロードではたくさん付けることが必要になります。}
+
+//@PART[solidBooster]
+//{@description =" While considered by some to be little more than ""a trash bin full o' boom"", The RT-10 is used in many space programs, whenever the need to save cash is greater than the need to keep astronauts alive. Use with caution, though. Once lit, solid fuel motors cannot be put out until the fuel runs out."}
+//{@description = 爆薬を詰めたゴミ箱に毛が生えたようなものだと考えられていますが、RT-10は宇宙飛行士の生命よりコスト削減のほうが重要な場合に、たくさんの宇宙事業で使われています。ですが使用の際は注意してください。一度点火したら固体燃料ロケットは燃料が尽きるまで止めることができません。}
+
+@PART[solidBooster1-1]
+//{@description =" Filled with a new, even more volatile fuel, the BACC offers semi-reliable performance at a good price."}
+{@description = より揮発性の高い、新たな燃料を満たしたBACCは安価でそこそこの信頼性を持ちます。}
+
+@PART[toroidalAerospike]
+//{@description =" The Toroidal Aerospike is a huge breakthrough from C7 Aerospace. While heavier than previous models, with its heavy-duty exhaust nozzle, the Aerospile makes up for it with an efficient burning of fuel at all altitudes."}
+{@description = Toroidal　AerospikeはC7エアロスペースによる大きな革新です。耐久性の高い排気ノズルにより以前のモデルより重量が増えましたが、その代わりにエアロスパイクエンジンは全ての高度で効率的に推進することができます。}
+
+//@PART[turboFanEngine]
+//{@description =" A highly advanced turbine engine using space-grade materials for very high performance. This new model features the latest in thrust vectoring and compression technology. This engine is designed to operate best at higher altitudes and speeds, and engineers from C7 Aerospace assured us all those leaks stop once it gets up there."}
+//{@description = 宇宙船グレードの材料を使用した、先進的超高性能タービンエンジンです。新しいこのモデルは最新の推力偏向と圧縮技術が特徴で、より高い高度と速度で使用するようにデザインされています。C7エアロスペースの技術者は、オイル漏れは高高度に上昇すれば止まると断言しました。}
+
+@PART[omsEngine]
+//{@description =" When The O-10 Engine was first unveiled, it was regarded as one of those ideas that someone should have thought of a long time ago. This made most employees at Reaction Systems Ltd. feel quite awkward, as they were particularly proud of having delivered this project on schedule for once. This Engine responds to main throttle controls, but it consumes MonoPropellant instead of a Fuel+Oxidizer mix."}
+{@description = O-10エンジンが初めて公開された時、大昔に誰かが思いついておくべきアイディアの一つだと見なされました。この時だけはプロジェクトをスケジュール通りに進めることが出来たのでReactionSystems社の社員たちはとても自慢しましたが、ほとんどの社員はとても気まずくなりました。このエンジンはメインエンジンのスロットルに連動していますが、液体燃料と酸化剤の代わりに1液式燃料(MonoPropellant)を消費します。}
+
+@PART[vernierEngine]
+//{@description =" The VR-N1ER Veer-Governor, or "Vernor" Engine is an attitude control thruster. These motors are linked to RCS controls, but are powered by a Fuel+Oxidizer mix, making them significantly more powerful than MonoPropellant-powered RCS thrusters. They are fairly more bulky in comparison though, and feature only one nozzle facing outwards, although most agree that is an acceptable trade-off for the additional punch they pack."}
+{@description = このVR-N1ER"Veer-Governor"、もしくは"Vernor"エンジンは姿勢を制御するためのスラスターです。これらの噴射口はRCS制御システムと連動していますが、液体燃料と酸化剤を使用しており、一液式のRCSスラスターよりとてもパワフルです。それにしても比較するとかなりかさばりますし、特徴としてたった一つのノズルしか外に面していませんが、その強力な推力の為なら許容しうる条件だと多くの人が認めています。}
+
+
+////★★-+-+-+ FuelTank +-+-+-
+
+
+@PART[fuelTank]
+//{@description =" The FL series was received as a substantial upgrade over previous fuel containers used in the Space Program, generally due to its ability to keep the fuel unexploded more often than not. Fuel tanks are useless if there isn't a Liquid Engine attached under it. They can also be stacked with other fuel tanks to increase the amount of fuel for the engine below."}
+{@description = FLシリーズは大抵は燃料が爆発せずに済むという点で、従来の宇宙開発に使用されていた燃料容器からかなりの進歩を遂げました。直下に液体燃料エンジンを取り付けない限り、燃料タンクは役に立ちません。他の燃料タンクの上に取り付けることで下にあるエンジンが使える燃料が増えます。}
+
+@PART[fuelTank1-2]
+//{@description =" Developed after one J. Kerman complained that the fuel tanks available were 'way too small', the X200-32 holds a generous amount of fuel, for all your... fueling needs or something like that. Shut up, Rockomax hires rocket scientists, not writers."}
+{@description = J.　Kermanの既存の燃料タンクはあまりにも小さすぎるという文句を受けて開発されたX200-32は大量の燃料を充填することができ、あなたの…燃料貯蔵や…あー、その他の用途に役立ち…うるさい。Rockomaxはロケット科学者を採用しているのであって私は作家ではない。}
+
+@PART[fuelTank2-2]
+//{@description =" After many, many studies, Rockomax engineers found that the space program does indeed have a use for a tank half the size of the X200-32. No refunds."}
+{@description = 長い、長い研究の結果、Rockomaxのエンジニアは宇宙開発では実際はX200-32の半分の大きさの燃料タンクが求められていることを発見した。X200-32の返金はお断りいたします。}
+
+@PART[fuelTank3-2]
+//{@description =" The largest tank available from Rockomax, the Jumbo-64 holds a vast amount of fuel in a friendly orange insulated container. Contrary to popular belief, the Jumbo-64 is NOT orange flavored and should NOT be tasted."}
+{@description = Rockomaxの製品中で最大のタンクであるJumbo-64は、親しみやすいオレンジの耐熱塗装タンクに莫大な量の燃料を貯蔵できます。俗説と正反対に、このタンクは決してオレンジ風味ではありませんし舐めようとしないでください。}
+
+@PART[fuelTank4-2]
+//{@description =" A compact fuel tank, designed for small upper stages and landers. Rockomax takes no responsibility for the Dawton Kerman Aboveground Pool Company stickers on the inside because it totally is not a swimming pool frame we stole from their back lot."}
+{@description = 小さな上段や着陸船用にデザインされたコンパクトな燃料タンクです。内側にDawton　Kerman　Aboveground　Pool社のステッカーがあることについてRockomaxは関知しておりません。奴らの裏庭から盗んだ水泳プールのフレームとは全く異なるものだからです。}
+
+@PART[fuelTankSmall]
+//{@description =" The T200 tank had some difficulty being accepted in the spacecraft engineering world, because most rocket builders had trouble overcoming their urges to squee at the ""cute little fuel tank"". This initial reaction was only put aside when the amount of fiery explosions in assembly areas became so high, strict guidelines were put in place to prohibit ""teasing the fuel containers"". The T200 Tank now is widely used in several space programs, especially in conjunction with the LV-909 engine."}
+{@description = ロケット製作者の有り余る情熱を「小さなカワイイ燃料タンク」に詰め込むことが難しかったため、T200タンクは宇宙船建造に受け入れられるまで困難を伴いました。当初、組立場で爆発火災が頻発したため無視に近い扱いを受けたので、過剰に燃料を入れてタンクを痛めつけることを禁止するガイドラインが導入されました。T200タンクは今やいくつかの宇宙開発で特にLV-909エンジンと組み合わせて広く使われています。}
+
+@PART[fuelTankSmallFlat]
+//{@description =" The T100 is a miniature fuel tank made to be even more adorable than its bigger brother, the T200. Handle stoically and with care. "}
+{@description = T100は兄貴分のT200より更に可愛らしい、ミニチュアの燃料タンクです。冷静に、注意して取り扱ってください。}
+
+@PART[fuelTank_long]
+//{@description =" A stretched variant of the FL-T400, the FL-T800 holds twice the fuel in a slightly stronger container. The black stripes along the side make the rocket go faster, our engineers tell us."}
+{@description = FL-T400の延長版がFL-T800で、若干強化された容器に2倍の燃料を貯蔵します。我々の技術者によると側面の黒い帯がロケットの速度を向上させるそうです。}
+
+@PART[miniFuelTank]
+//{@description =" The Oscar-B Fuel Tank from Probodobodyne is a compact fuel container for small space probes, or a backup tank for other small spacecraft. Do not wash in cold water, or feed after midnight."}
+{@description = Probodobodyne製のOscar-B燃料タンクは小型人工衛星や小型宇宙船のバックアップ用途のコンパクトな燃料容器です。水をかけたり、真夜中に食べ物を与えてはいけません。}
+
+@PART[MK1Fuselage]
+//{@description =" A standard fuselage that carries fuel for spaceplanes. This one is chock-full of jet fuel. Not as resistant as it's counterparts, but jet fuel is more efficient than the other fuels, without mentioning lighter."}
+{@description = スペースプレーンの燃料を貯蔵する標準的胴体タンクです。このモデルはジェット燃料がぎっしり詰まっています。普通の胴体に比べ耐久力が劣りますが、ジェット燃料は他の燃料に比べ重量では劣りますが効率的です。}
+
+@PART[Mk1FuselageStructural]
+//{@description =" A standard fuselage. Carries no fuel; is there merely as a structural element. As such, it's lighter and more solid due to reinforcements."}
+{@description = 標準的胴体です。燃料を貯蔵することはできませんが代わりに構造部材が入っています。結果としてより軽く、補強のお陰でより頑丈です。}
+
+@PART[mk2Fuselage]
+//{@description =" This airframe fuselage features the latest in re-entry survivability. Apparently air gets very hot at high speeds (Who knew?!). To combat this, we attached only the finest in slightly used thermal tiles to the under belly."}
+{@description = この機胴には最新の大気圏再突入時の生存性向上技術が採用されています。見るところ高速では空気は超高温になるようです。(誰も知らなかったが!?)　この問題に対処するため、我々は胴体下部に最高品質の耐熱タイルを取り付けました。}
+
+@PART[mk2SpacePlaneAdapter]
+//{@description =" This airframe fuselage features the latest in re-entry survivability. Apparently air gets very hot at high speeds (Who knew?!). To combat this, we attached only the finest in slightly used thermal tiles to the under belly."}
+{@description = この機胴には最新の大気圏再突入時の生存性向上技術が採用されています。見るところ高速では空気は超高温になるようです。(誰も知らなかったが!?)　この問題に対処するため、我々は胴体下部に最高品質の耐熱タイルを取り付けました。}
+
+@PART[mk3Fuselage]
+//{@description =" This airframe fuselage features the latest in re-entry survivability. Apparently air gets very hot at high speeds (Who knew?!). To combat this, we attached only the finest in slightly used thermal tiles to the under belly."}
+{@description = この機胴には最新の大気圏再突入時の生存性向上技術が採用されています。見るところ高速では空気は超高温になるようです。(誰も知らなかったが!?)　この問題に対処するため、我々は胴体下部に最高品質の耐熱タイルを取り付けました。}
+
+@PART[mk3spacePlaneAdapter]
+//{@description =" This airframe fuselage features the latest in re-entry survivability. Apparently air gets very hot at high speeds (Who knew?!). To combat this, we attached only the finest in slightly used thermal tiles to the under belly."}
+{@description = この機胴には最新の大気圏再突入時の生存性向上技術が採用されています。見るところ高速では空気は超高温になるようです。(誰も知らなかったが!?)　この問題に対処するため、我々は胴体下部に最高品質の耐熱タイルを取り付けました。}
+
+@PART[radialRCSTank]
+//{@description =" Despite its fanciful name, the Stratus-V is quite simple - a small, radially attachable RCS tank."}
+{@description = 凝った名前とは裏腹に、Stratus-Vはとてもシンプルで小さな側面設置のRCS燃料タンクです。}
+
+@PART[RCSFuelTank]
+//{@description =" These fuel tanks monopropellant for RCS thrusters. New advances in plumbing technology made it possible to route RCS lines to any point in the ship. So unlike liquid fuel tanks, RCS Fuel tanks can be placed anywhere."}
+{@description = RCSスラスター用の単元推進剤を貯蔵するタンクです。配管技術の新たな進歩により、RCS配管を宇宙船のあらゆる所に張り巡らせることが出来るようになりました。なので液体燃料タンクと異なり、RCS燃料タンクはどこにでも設置出来ます。}
+
+@PART[RCSTank1-2]
+//{@description = A larger-scale version of the standard RCS fuel tank.}
+{@description = 普通のRCSタンクの大型版です。}
+
+@PART[rcsTankMini]
+//{@description = The FL-R10 is a miniature RCS tank for small probes and low volume monopropellant storage. }
+{@description = FL-R10は小型人工衛星用のミニチュアRCSタンクで、少量の単元推進剤を貯蔵します。}
+
+@PART[rcsTankRadialLong]
+//{@description =" After years of research and development, the Stratus corporation has developed a revolutionary upgrade to their Stratus-V fuel tank line. Cylinders. This tank holds a moderate supply of monopropellant for RCS thrusters."}
+{@description = 何年にも及ぶ研究開発の結果、Stratus社は彼らのStratus-Vタンクシリーズに革命的進歩をもたらしました。円筒形タンクのことです。このタンクはそこそこのRCSスラスター用単元推進剤を貯蔵します。}
+
+@PART[toroidalFuelTank]
+//{@description = An unconventionally shaped (but undoubtedly handy) fuel tank.}
+{@description = 型破りの形をした（しかし使いやすいことは確かだ）燃料タンクです。}
+
+@PART[xenonTank]
+//{@description =" Although most of the KSC staff can't pronounce ""Xenon"", when told how to say it correctly, they all agree it sounds super-cool - and everything possible should be done so it can be used as a fuel."}
+{@description = ほとんどのKSCスタッフがキセノンを正しく発音できません。ただ、正しい発音を教わるとそれが超クールな響きであることには同意します。こんな調子ではキセノンガスを燃料として使えるようにするには、あらゆる努力が必要になるでしょう。}
+
+@PART[xenonTankRadial]
+//{@description = The X50R is a small-volume Xenon container ideal for tuning the operating life of ion-driven spacecraft.}
+{@description = X50Rは小容量のキセノンガス容器で、イオン推進宇宙船の作動寿命を延長するのに理想的です。}
+
+
+////★★-+-+-+ Science +-+-+-
+
+
+//@PART[Large_Crewed_Lab]
+//{@description =" The mobile processing lab was developed to help increase the amount of science we're able to do in the field. Instead of needing to haul samples all the way back to Kerbin, the mobile lab will allow you to process these samples on site! This model is guaranteed to spontaneously combust less than previous models, and also has the equipment necessary to clean out and restore functionality to inoperable experiments. "}
+//{@description = モバイル研究室は現地で実行可能な実験の量を増やすために開発されました。わざわざKerbinまでサンプルを輸送せずとも、この実験室により現地でサンプルに実験を施すことが出来ます!このモジュールは以前の物よりは自然発火しにくいことが保障されており、実験器具を掃除し機能性を復元するのに必要な機器も備えています。}
+
+@PART[GooExperiment]
+//{@description =" This unit was something one of our engineers came upon while dumpster divin-- Erm, while researching alternative applications for existing technologies. It's a sealed container which appears to be filled with a strange-looking substance. We couldn't reach in or break the canister open, but watching how the Goo behaves when subjected to different situations could be very educational."}
+{@description = この装置はとある技術者がゴミ箱ダイブをキメ…あー、既存の技術の新たな応用を調査中に発明された、奇妙な見た目の物質が封印された容器のようです。手を突っ込んだり容器を開けたりはできませんが、中身のGooが様々な環境に暴露された場合にどういう振る舞いをするかはきっと研究価値があります。}
+
+@PART[science_module]
+//{@description =" The SC-9001 is a cutting edge, self contained laboratory. Have you ever wondered what happens to something in zero G? Or, have you ever pondered the truly meaningful questions? Such as what would happen if I exposed this to the rigors of stellar radiation and unforgiving vacuum? Comes with complimentary notepad. Recommended for ages 4-8. Small parts inside make it not suitable for small children."}
+{@description = SC-9001は最先端の独立型実験室です。無重力で何が起こるか不思議に思ったことはありませんか？もしかして不思議に思うことが何も思いつきませんか？例えば、もし私がこれを過酷な宇宙線と容赦無い真空の環境下に置いたら何が起こるでしょうか。おまけのメモ帳付きで対象年齢は4-8歳。小さな部品を含むため幼児には不向きです。}
+
+
+////★★-+-+-+ Structural +-+-+-
+
+
+@PART[adapterLargeSmallBi]
+//{@description =" After realizing 'larger circles' wasn't a very patentable concept, O.M.B. Enterprises rolled out a new line of ingenious multi-connector adapters to fit Rockomax sized parts. Lawsuit still pending. Converts a single 2.5m stack into two 1.25m stacks."}
+{@description = 大サイズアダプターが特許取得できないと気づいたO.M.B.エンタープライズ社はRockomax社のラインナップに適合する独創的な分割コネクターを発表しました。裁判は審理中です。2.5ｍサイズから2つの1.25ｍサイズに変換します。}
+
+@PART[adapterLargeSmallQuad]
+//{@description =" After realizing 'larger circles' wasn't a very patentable concept, O.M.B. Enterprises rolled out a new line of ingenious multi-connector adapters to fit Rockomax sized parts. Lawsuit still . Converts a single 2.5m stack into four 1.25m stacks."}
+{@description = 大サイズアダプターが特許取得できなpendingいと気づいたO.M.B.エンタープライズ社はRockomax社のラインナップに適合する独創的な分割コネクターを発表しました。裁判は審理中です。2.5ｍサイズから4つの1.25ｍサイズに変換します。}
+
+@PART[adapterLargeSmallTri]
+//{@description =" After realizing 'larger circles' wasn't a very patentable concept, O.M.B. Enterprises rolled out a new line of ingenious multi-connector adapters to fit Rockomax sized parts. Lawsuit still pending. Converts a single 2.5m stack into three 1.25m stacks."}
+{@description = 大サイズアダプターが特許取得できないと気づいたO.M.B.エンタープライズ社はRockomax社のラインナップに適合する独創的な分割コネクターを発表しました。裁判は審理中です。2.5ｍサイズから3つの1.25ｍサイズに変換します。}
+
+@PART[adapterSmallMiniShort]
+//{@description = A small parts adapter for FL-T based fuselages. }
+{@description = FL-Tタンクを使った胴体から小サイズに変換するアダプターです。}
+
+@PART[adapterSmallMiniTall]
+//{@description = A small parts adapter for FL-T based fuselages.}
+{@description = FL-Tタンクを使った胴体から小サイズに変換するアダプターです。}
+
+@PART[nacelleBody]
+//{@description = This engine body features ram air intakes for increased fuel flow to connected engine exhaust systems.}
+{@description = このエンジンは、接続されたエンジンの排気機構によって増加した燃料流の為にラムエアインテークを備えています。}
+
+@PART[radialEngineBody]
+//{@description =" This engine body features radiator flaps and cowls to help cool air breathing, high performance engines. "}
+{@description = このエンジンは、冷気吸引エンジンや高性能エンジンを支援するために、ラジエータフラップとカウルを備えています。}
+
+@PART[smallHardpoint]
+//{@description =" A structural Pylon for engine Support. Designed to fit against fuselages, and hull bodies. This is the small variant, mostly for use with the smaller engines."}
+{@description = 胴体にエンジンを取り付けるためのパイロンです。このパーツは小さめのエンジン用の小さい機種です。}
+
+@PART[stationHub]
+//{@description =" When it was unveiled at the 3rd annual Rockets & Explosions festival, the HubMax Multi-Point Connector caused several patrons to die of shock on the spot. 'All my life I thought rocket parts could be placed one way - up! But Rockomax today has shattered that notion' said one survivor, who asked to remain anonymous. Needless to say, this part may very well herald a revolution in construction technologies. Docking ports sold separately."}
+{@description = 第三回ロケットと爆発展においてベールを脱いだHubMax多分割コネクターは何人かのパトロンをショックの余り死に追いやりました。匿名希望の生存者は、「今までの人生でロケット部品は上向きに積み重ねることしかできないとばかり思っていたがあの日、Rockomaxはその観念を粉々にしてしまった」と語っています。ドッキングポートは別売です。}
+
+@PART[structuralIBeam1]
+//{@description =" A wide, upscaled version of the M-Beam 200 I-Beam. Dinkelstein loves variety, man."}
+{@description = M-Beam　200　I-Beamの幅広拡大版です。Dinkelsteinは多様性を大切にしています。}
+
+@PART[structuralIBeam2]
+//{@description =" Handcrafted by Dinkelstein himself, the M-Beam 200 works great for making rockets and skyscrapers alike."}
+{@description = Dinkelstein自身により製作されたM-Beam　200を使えばロケットも摩天楼も建造できます。}
+
+@PART[structuralIBeam3]
+//{@description =" Handcrafted by Dinkelstein himself, the M-Beam 200 works great for making rockets and skyscrapers alike. This one's half as long as the normal version, for building smaller skyscrapers and/or rockets."}
+{@description = Dinkelstein自身により製作されたM-Beam　200を使えばロケットも摩天楼も建造できます。これは標準バージョンの半分の長さで、小さいロケットや摩天楼建造用です。}
+
+@PART[structuralMiniNode]
+//{@description = Dinkelstein Kerman's Construction Emporium vehemently denies any and all accusations of industrial espionage arising from similarities between this product and a product-which-will-not-be-named from Rockomax Brand.}
+{@description = この製品と、（製品と呼ぶのもおこがましい）Rockomax社のものが類似しているのではないかという産業スパイによる非難を、Dinkelstein　Kerman建設会社は全力で否定しています。}
+
+@PART[structuralPanel1]
+//{@description =" A sturdy metal plate, perfect for constructing all sorts of things."}
+{@description = 頑丈な金属板です。あらゆるものの建造に役立ちます。}
+
+@PART[structuralPanel2]
+//{@description =" Four M-1x1 have been arranged in a 2x2 layout for this part, then stuck together with super glue."}
+{@description = 4枚のM-1をまとめて2x2に並べ、接着剤で貼り付けたものがこのパーツです。}
+
+@PART[structuralPylon]
+//{@description =" A structural Pylon for engine Support. Designed to fit against fuselages, and hull bodies. Comes Equipped with emergency bolts to separate jet engines in the event of fire or catastrophic failure. (Not covered by warranty)"}
+{@description = 胴体にエンジンを取り付けるためのパイロンです。火を噴いたり悲惨な事態が発生したりした場合にジェットエンジンを切り離す爆薬ボルトを装備しています。（保証適用外）}
+
+@PART[structuralWing]
+//{@description =" This wing has been constructed of surplus wing components. Comes complete with ""like new"" finish. Intended uses include, very large canards, and leading edges of larger delta wings."}
+{@description = この翼は余りの端材から製造されました。新品同様の仕上げがされています。巨大カナードや大型デルタウイングの前縁としての使用が想定されています。}
+
+@PART[strutConnector]
+//{@description =" The Strut Connector is highly regarded by many spacecraft engineers as they help in constructing more stable spacecraft. Once both sides are connected, a structural beam is created to link both ends, allowing for sturdier (and heavier) construction.  "}
+{@description = 沢山の宇宙船技術者がより安定した宇宙船を建造するため補強コネクターを役立てています。両端をパーツに接続すると、補強支柱が伸び、より頑丈で重い宇宙船を建造できます。}
+
+@PART[strutCube]
+//{@description =" Now, with advances in technology, StrutCo brings you the Cubic Octagonal Strut - it's like a regular Octagonal Strut, but in the shape of a cube!"}
+{@description = 今や技術の進歩により、Strut社が立方体のトラス支柱をお届けできるようになりました！普通の八角形支柱と似ていますが、立方体形状をしています。}
+
+@PART[strutOcto]
+//{@description = StrutCo presents: Octagonal struts! Use them to mount stop signs or octopi.}
+{@description = Strut社の説明文：八角形の支柱です！止まれの標識やタコを貼り付けるのにご使用ください。}
+
+@PART[trussAdapter]
+//{@description = This piece allows you to attach Modular Girder parts to standard 1.25m attachment points.}
+{@description = このアダプターを使えば1.25ｍ径の標準取り付け部に桁モジュールを取り付けることができます。}
+
+@PART[trussPiece1x]
+//{@description = New! Build the structure of your dreams with the Maxo Construction Toys Modular Girder Segment!}
+{@description = 新製品！あなたの夢みた建築をMaxo　Construction　Toysの桁モジュールで叶えよう！}
+
+@PART[trussPiece3x]
+//{@description = Now even bigger! Build larger structures of larger dreams!}
+{@description = さらに大きくなった！もっと大きな夢を叶えよう！}
+
+
+////★★+-+-+ Utility +-+-+-
+
+
+@PART[airScoop]
+//{@description =" A must-have for air breathing engines, this intake duct will pull in outside air to run turbine engines on, as long as there is any outside air to begin with, of course. Warranty does not cover engine flame-outs or any objects, inanimate or otherwise, sucked in by the intake."}
+{@description = 機外に空気がある限りタービンエンジンに空気を取り込むこのエアインテークは、空気吸い込み式エンジンの必需品です。エンジンのフレームアウトや生物/無生物がインテークに吸い込まれることについては保証対象外です。}
+
+@PART[CircularIntake]
+//{@description =" A proper turbofan intake, not only provides oxygen to air breathing engines, it pulls in twice as much air than those puny air scoops from Vac-Co. "}
+{@description = ターボファンエンジンに最適なインテークです。エンジンに必要な酸素を供給するというだけでなく、Vac-Coの貧相なインテークの倍の空気を取り込むことができます。}
+
+@PART[commDish]
+//{@description =" The Communotron High-Gain Antenna, model 88-88 allows for long-range, high-speed communication."}
+{@description = "88-88"は長距離高速通信用のCommunotron社製高利得アンテナです。}
+
+@PART[decoupler1-2]
+//{@description =" Rockomax is pleased to bring you the latest in decoupling technologies - twice the size of the next leading brand, Rockomax Brand Decouplers offer plenty of bang for plenty of buck! As with its smaller, woefully inferior competitor, the Rockomax Decoupler has handy arrows to indicate which side it will detach from. "}
+{@description = Rockomax社が満を持してお届けする最新の分離装置、Rockomax　Brand　Decouplerは既存の有名ブランドの二倍のサイズがあり、強力な分離力をもたらす強力な爆薬を装備しています。小さな、痛ましいほど劣った競合機種と同様、Rockomax社の分離装置も分り易い矢印でどこが分離部分かを表示しています。}
+
+@PART[dockingPort1]
+//{@description =" Invented after a peaceful protest against the lack of spacecraft attachment systems turned violent, the Clamp-O-Tron Docking Port allows for the firm attachment of two separate vessels. After docking, vessels can be just as easily undocked. The Shielded version has deployable fins to protect the port during ascent."}
+{@description = 宇宙船のドッキングシステムが無いことに対する穏当な抗議が暴動にまで発展した後Clamp-O-Tronドッキングポートが発明されました。このポートで2つの宇宙船をしっかり接続することができます。ドッキング後は、簡単に切り離しも出来ます。シールド付きの機種は大気圏を上昇中にドッキングポートを保護する、展開可能な蓋がついています。}
+
+@PART[dockingPort2]
+//{@description =" Invented after a peaceful protest against the lack of spacecraft attachment systems turned violent, the Clamp-O-Tron Docking Port allows for the firm attachment of two separate vessels. After docking, vessels can be just as easily undocked."}
+{@description = 宇宙船のドッキングシステムが無いことに対する穏当な抗議が暴動にまで発展した後Clamp-O-Tronドッキングポートが発明されました。このポートで2つの宇宙船をしっかり接続することができます。ドッキング後は、簡単に切り離しも出来ます。}
+
+@PART[dockingPort3]
+//{@description =" Originally marketed as a child-size version of the normal Clamp-O-Tron, the Clamp-O-Tron Jr. soon found use among hobbyists and professional space agencies alike for its compact profile, lightweight structure, and all-round cuteness. As a result of its small size, it's usable for transferring resources, but not crew."}
+{@description = 子供たちがくぐる用のドッキングポートとして販売されていたClamp-O-Tron　Jr.は、軽量コンパクトで可愛らしいことからすぐにプロ・アマ問わず宇宙開発に使用されるようになりました。サイズが小さいため、燃料などを移送することはできますがクルーは通れません。}
+
+@PART[dockingPortLarge]
+//{@description =" The Clamp-O-Tron Sr. is the result of intense and costly development to answer the problem of how to make docking connections more sturdy. Thanks to the brilliant suggestion of the staff janitor ""why don't you make 'em bigger?"", the public now can enjoy the sheer thrill of docking enormous objects in space."}
+{@description = ドッキングの接続をより強固にするにはどうするかという問題に対する、ひたむきで多額の費用を掛けた研究の結果Clamp-O-Tron　Sr.が開発されました。janitor研究員の「大きくしたらいいんじゃないの？」という素晴らしい提案のお陰で、今や皆が宇宙空間で巨大な物体をドッキングするという真のスリルを味わえます。}
+
+@PART[dockingPortLateral]
+//{@description =" The Inline Clamp-O-Tron was an accidental invention, created after an engineer (who really should have been wearing his glasses) incorrectly interpreted the Shielded Clamp-O-Tron's blueprints. Still, the rest of the team very much liked the idea of a sideways-pointing docking port with its own aerodynamic shell, so he patented the design. He still refuses to admit it wasn't intentional."}
+{@description = 内蔵ドッキングポートは偶然の産物でした。とある技術者がシールド付きドッキングポートの設計図を間違えてできたのです（彼はメガネを掛けるべきです）。にもかかわらずチームの他のメンバーが空力カバー付きで横向きのドッキングポートというアイデアをとても気に入ったため、彼は特許を取得することにしました。彼は依然、意図的に発明したことを否定しています。}
+
+@PART[fuelLine]
+//{@description =" New breakthroughs at FLOOYD Dynamics have made the FTX Fuel Duct a reality. Altough criticized by some as being no more than 'a sewage pipe painted yellow', most agree that the yellow is a relatively nice color, and that fuel lines are indeed able to pump fuel from side-mounted fuel tanks. After the recall of the FTX-1 series, All FTX-2 lines have arrows painted on to indicate the fuel flow direction, so engineers can tell which way around they are supposed to go."}
+{@description = 流体力学の新たなブレイクスルーにより、FTX燃料ダクトが製品化されました。こんなものは黄色い下水管に過ぎないという批判もありますが、大多数は黄色は素敵な色だということと、側面に設置した燃料タンクからも燃料を移送できるようになることを認めています。FTX-1シリーズのリコールの後、FTX-2燃料ダクトは燃料が流れる方向を制御できるように、矢印がペイントされるようになりました。}
+
+@PART[ladder1]
+//{@description =" The Pegasus I Mobility Enhancer, known in some circles as a ""ladder"", is a state-of-the-art vertical mobility device, allowing your intrepid crew to scamper around the exterior of your ship like highly caffinated rodents."}
+{@description = ペガサスI機動力強化装置（またの名をハシゴ）"は最先端の垂直方向の移動手段です。この装置を使えば勇敢なクルーたちが宇宙船の外壁にそってネズミのごとく動き回れるようになります。}
+
+@PART[landingLeg1]
+//{@description =" It may have been originally designed as a heavy-duty metal detector, but this landing leg certainly emphasises an important fact in surface landings: you don't need to put a crater in the ground to stop yourself!"}
+{@description = もともと丈夫な金属製アンテナとして開発されましたが、この着陸脚は確実に着陸に関する重要な事実を明らかにしました。いちいち地面に激突してクレーターを作る必要はないのです。}
+
+@PART[landingLeg1-2]
+//{@description =" The LT-2 Landing Strut offers a heavy-duty method for planting yourself firmly on the ground, without the severe consequences that usually accompany planting yourself firmly on the ground."}
+{@description = 丈夫なLT-2着陸脚を使えば、地面にしっかりと突き刺さるという手段を取らなくとも地面にしっかり着陸することができます。}
+
+@PART[largeAdapter]
+//{@description =" Governmental pressure and several lawsuits led Rockomax to finally consider creating an adapter to connect its own parts to that of its competitors. As much as the CEOs hated it, however, it was a resounding success."}
+{@description = 政府の圧力といくらかの訴訟の結果Rockomax社は競合他社のパーツと自社のパーツを結合するアダプターを製造することになりました。CEOは毛嫌いしていますが、このパーツは大成功を収めています。}
+
+@PART[largeAdapter2]
+//{@description =" A shorter adapter from Rockomax, formed under similar circumstances to its big brother. Coated with spaceproof paint for maximum integrity."}
+{@description = 兄貴分と同じような境遇で生まれた、Rockomax社のより短いアダプターです。最高の強度を得るため宇宙用の塗装がされています。}
+
+@PART[launchClamp1]
+//{@description =" The TT18-A Stability Enhancer uses ground-breaking fastening technology to significantly increase the stability of spacecraft during the pre-launch phase. While OMB Demolition has been criticized in the past for using ""big fancy words for a rocket holder"" in their description of their device, none can say the TT18 series doesn't deliver rock-solid clamping action, as advertised. The owner's manual strongly suggests these devices be placed on the bottommost section of the spacecraft, and activated as soon as the engines are lit, for optimal de-clamping performance."}
+{@description = TT18-A安定性強化装置は革新的な固定方法により打ち上げ前の宇宙ロケットの安定性をかなり向上させます。OMBデモリッション社は自社の製品の説明文で「ロケット支柱の聞こえのいい呼び方にすぎない」とこき下ろしましたが、TT18シリーズが広告通りの盤石の固定力を発揮しないなどとは誰も認めていません。オーナーズマニュアルによると、最適に分離するためには支柱をロケットの最下部に設置し、エンジン点火するやいなや切り離すことが強く推奨されています。}
+
+@PART[linearRcs]
+//{@description =" For every space that really needs an RCS thruster, Reaction Systems Ltd. has you covered with its new Place-Anywhere 7 Linear RCS Port!"}
+{@description = RCSスラスターが必要な全ての宇宙船に、Reaction　Systems社が新製品のPlace-Anywhere　7垂直RCSポートをお届けします！}
+
+@PART[longAntenna]
+//{@description =" The Communotron 16 is a versatile and lightweight antenna, suitable for moderate-range communication, long-range backup communication, eavesdropping on secret government operations."}
+{@description = Communotron　16は中距離通信、長距離通信のバックアップ、政府の秘密機関による通信傍受用途などに適した多用途軽量アンテナです。}
+
+@PART[mediumDishAntenna]
+//{@description = The DTS-M1 is a fully deployable communications and data transmission system. It has been designed to have a minimal form factor when stowed. Occasional antenna tweaking and swift kicks to the main assembly may be required for optimal performance.}
+{@description = DTS-M1は展開可能な通信・データ送信システムです。収納時のサイズを最小化する設計がされています。最高性能を引き出すため、時折アンテナの調整をし主なパーツに蹴りを加える事が必要です。}
+
+@PART[miniLandingLeg]
+//{@description =" A small landing leg designed for space probes or lightweight landers. Basically made of toothpicks... erm, Space-grade toothpicks mind you, but be careful with them anyway."}
+{@description = 人工衛星や軽量の着陸船用に設計された小さな着陸脚です。基本的な材料は爪楊枝...ええと、宇宙用の爪楊枝ですが、なんにせよ注意して使ってください。}
+
+
+@PART[parachuteDrogue]
+//{@description =" The Mk25 is what's known as a ""Drogue"" parachute - small, deploys high up, and certainly not enough to stop you smashing into the ground on its own, but useful for slowing heavy craft down before the deployment of your main chutes."}
+{@description = Mk25はドラッグシュートとして知られており、小さいのでこれ単体では地面に激突してしまいますが、高高度で開くため重い宇宙船をメインのパラシュートが開く前に減速させるのに使われます。}
+
+@PART[parachuteLarge]
+//{@description =" The Mk16-XL Parachute is a double-sized variant of the Mk16, now with only 50% of the structural integrity!"}
+{@description = Mk16-XLパラシュートはMk16の2倍の大きさの機種です。ただしパラシュート生地の縫製はまだ半分しか完成していません！}
+
+@PART[parachuteRadial]
+//{@description =" A parachute comparable to the Mk16-XL chute, but which is placed radially instead of attached on top of something."}
+{@description = Mk16-XLと同性能ですが、てっぺんに取り付ける代わりに側面に取り付けられるようになっています。}
+
+@PART[parachuteSingle]
+//{@description =" The Mk16 Parachute might be considered by some to be little more than a random stitching together of the surplus parts it is, in fact, made from. But the fact remains that the Mk16 has been widely accepted as a generally better alternative to being in freefall."}
+{@description = Mk16パラシュートは一部で、余った端切れの寄せ集めに毛が生えたようなものだと思われているようですが、実際に端切れを縫い合わせて作られています。そうだとしても現実には自由落下よりマシなので、Mk16は広く使用されてきました。}
+
+@PART[radialDecoupler]
+//{@description =" The TT-38K Radial Decoupler, like most other decouplers, is equipped with a (hopefully) small explosive charge, that will sever the structural linkage between itself and whatever it's connected to."}
+{@description = 他の殆どのデカプラと同じく、TT-38K　Radial　Decouplerは(たぶん)少量の爆薬が装填してあり、接続部位を切り離すことが出来ます。}
+
+@PART[radialDecoupler1-2]
+//{@description =" After discovering the word ""Manifold"", O.M.B. Engineers decided it would be best to use it in the name of at least ONE product."}
+{@description = マニホールド(Manifold)という単語を知った時、O.M.B.の技術者は少なくともひとつの製品名に使ってやろうと思い付きました。}
+
+@PART[radialDecoupler2]
+//{@description =" The TT-70 Radial Decoupler is an extension of the TT-38K decoupler, with a large truss structure for greater space between mounting points."}
+{@description = TT-70　Radial　Decouplerは搭載位置から大きな間隔をとるための大型トラス構造を備えた、TT-38Kデカプラの延長版です。}
+
+@PART[ramAirIntake]
+//{@description =" Not your average air intake. These High Performance air intakes have their own pre-compressors, to supercharge air-breathing engines at very high altitudes."}
+{@description = 平均的なエアインテークではありません。この高性能エアインテークは、高高度で空気呼吸エンジンに過給するために、予圧縮機を内蔵しています。}
+
+@PART[RCSBlock]
+//{@description =" The recent discovery of a third law of physics made it possible for STEADLER Corps engineers to produce these small monopropellant thrusters, to help with attitude control and linear motion. Even though many Kerbal physicists still dispute the validity of this new law, studies show that the thrusters seem to work as advertised."}
+{@description = 最近の物理学第三法則の発見によりSTEADLER社の技術者が、姿勢制御と平行移動に使われる小型RCSスラスターを開発しました。たくさんのKerbalの物理学者が未だにこの新しい法則について議論を交わしていますが、実験によればスラスターは触れ込み通りの性能を発揮することが判明しています。}
+
+@PART[roverBody]
+//{@description =" A general purpose housing, intended to be the base for all manner of spacecraft - in particular, surface rovers. Somebody left a battery inside it during manufacturing, so it has some electric storage capacity as well."}
+{@description = あらゆる宇宙船、特にローバーの土台となるべくして作られた多目的筐体です。製造中に誰かが中にバッテリーを置き忘れたため、蓄電機能もあります。}
+
+@PART[sensorAccelerometer]
+//{@description =" This device contains an extremely sensitive acceleration sensor, which when properly settled on a firm surface, will detect and record accurate seismic activity data. The accelerometer will still function while flying, so the Double-C can also be used to measure accelerations during flight. Warranty void if shaken or exposed to vacuum."}
+{@description = この装置はとても敏感な加速度計を内蔵しており、しっかりと地面に設置された場合正確な地震活動を検出し記録します。飛行中にも使用可能で、機体にかかる加速度を測定することもできます。振り回したり真空に晒した場合保証対象外になります。}
+
+@PART[sensorBarometer]
+//{@description = A device for measuring the local atmospheric pressure. Warranty void if exposed to air.}
+{@description = 周囲の大気圧を測定する装置です。外気に触れると保証対象外になります。}
+
+@PART[sensorGravimeter]
+//{@description =" A device for capturing and measuring the elusive Negative Gravioli Particle, used for determining the precise strength of gravitational fields. Warranty void if used to detect Positive Gravioli Particles."}
+{@description = とらえどころのない反重力子を捉える装置で、重力場の強さを正確に測定するために使われます。重力子を測定した場合保証対象外になります。}
+
+@PART[sensorThermometer]
+//{@description = This thermometer is definetely not a store-bought model with some wires stuck to it. Warranty void if an engineer admits it's actually a store-bought model with some wires stuck to it.}
+{@description = この温度計はもちろん市販品をワイヤで括りつけたようなものではありません。市販品を使っていることがエンジニアにバレてしまった場合、保証対象外になります。}
+
+@PART[spotLight1]
+//{@description =" The Illuminator Mk1 from RKEA projects a strong beam of photons in its prograde direction, increasing the brightness of surfaces exposed to the beam (it's a big flashlight)."}
+{@description = RKEA製のMk1イルミネーターは正面に強力な光子ビームを照射し、ビームの当たった表面の明るさを増大させます（要するに大きな懐中電灯です）}
+
+@PART[spotLight2]
+//{@description =" The Illuminator Mk2 is an extra-wide beam, low-power Illuminator, for lighting up large swaths of whatever you wish. However, its beam does not shine very far."}
+{@description = Mk2イルミネーターは幅広光で低消費電力です。照らしたい所を広い範囲にわたって照らすことができます。ですが、あまり遠くまで光が届きません。}
+
+@PART[stackBiCoupler]
+//{@description = The TVR-200 Stack Bi-Coupler is a simple method for splitting one rocket into two - WITHOUT the disastrous consequences of doing it the normal (explosive) way.}
+{@description = TVR-200分岐装置は一つのロケットを、縦に切断して爆発させる大惨事を引き起こすことなしに二つに分岐するシンプルなアダプターです。}
+
+@PART[stackDecoupler]
+//{@description =" The TR-18A Stack Decoupler is equipped with a (hopefully) small explosive charge, that will sever the structural linkage between itself and whatever it's connected to. Painted on its sides are handy arrows indicating which side will detach."}
+{@description = TR-18A分離装置は小型（たぶん）爆薬を装備し、接続された物体との固定を断ち切ります。側面の分り易い矢印でどこが分離部分かを表示しています。}
+
+@PART[stackDecouplerMini]
+//{@description = The TR-2V Stack Decoupler is a miniature detachment utility for small rockets and space probes.}
+{@description = TR-2V分離装置は小さいロケットや人工衛星のためのミニチュア分離装置です。}
+
+@PART[stackPoint1]
+//{@description =" Originally a defective Clamp-O-Tron docking port, engineers soon discovered it had great potential as a structural element."}
+{@description = もともとはドッキングポートの不良品でしたが、ロケットの構造部材として大きな可能性を秘めていることに技術者は気づきました。}
+
+@PART[stackQuadCoupler]
+//{@description =" What could be more awesome than a Tricoupler? Why, a quadcoupler, of course. Just remember that this is not a decoupler, and will not separate stages."}
+{@description = 3つに分岐するアダプターより凄いものをどうやって作るというのでしょうか？もちろん、4つに分岐すればいいのです。これは分離装置ではないので、多段ロケットの分離には使えないことを忘れないでください。}
+
+@PART[stackSeparator]
+//{@description =" Unlike Decouplers, Separators jettison everything attached to them. This new technology was very well received by rocket engineers everywhere. Not bad for something that started out as a failure for a controlled explosive bolt prototype."}
+{@description = 普通の分離装置と異なり、セパレーターは取り付けた両側との接続を切り離します。この新技術は世界中のロケット技術者に受け入れられました。爆薬ボルトの失敗作から生まれたにしては上出来でしょう。}
+
+@PART[stackSeparatorBig]
+//{@description =" The TR-XL Stack Separator is the largeTR-2L st available from O.M.B, designed for slicing the largest of rockets in twain. Unlike Decouplers, Separators will eject anything connected to themselves. This is good, as it removes the need to worry about which side needs to be pointed away from face. Try to not look at it too much though."}
+{@description = TR-XLセパレーターはO.M.B.の製品中で最大のもので、もっとも大きいロケットも二つに分離することができます。普通の分離装置と異なり、セパレーターは取り付けた両側との接続を切り離します。どちら向きに取り付けるか悩まなくて済むのが利点です。あまり詳しく見ないようにしてください。}
+
+@PART[stackSeparatorMini]
+//{@description =" Similarly to the TR-18D, the TR-2C is a utility for slicing a rocket into two halves, but now in a more compact size. The manual says the explosive content is just enough to eject anything attached to the unit in a safe, controlled manner. The delivery guy did have a full bomb suit on though, so try not to drop it."}
+{@description = TR-18Dと同様、TR-2Cはロケットを2つに分離するためのものでより小型化されています。マニュアルによると安全でコントロール可能な範囲内で、切り離しに必要十分なだけの少量の爆薬を内蔵しているとあります。配達人はきっと対爆防護服を着込んできたでしょうから、床に落とさないように気をつけてください。}
+
+@PART[stackTriCoupler]
+//{@description =" The Stack Tricoupler! If your stack is lacking in awesomeness, this is the tool for you! Just remember that this is not a decoupler, and won't separate stages."}
+{@description = 3分岐アダプターです！かっこ良さが足りなかったら、この製品の出番です！これは分離装置ではないので、多段ロケットの分離には使えないことを忘れないでください。}
+
+@PART[telescopicLadder]
+//{@description = The Telus Mobility Enhancer comes equipped with advanced telescopic extension technology. Recommended load 0.5 kerbals.}
+{@description = Telus機動力強化装置は先進的な伸縮機構を装備しています。kerbal0.5人分の荷重でご使用ください。}
+
+@PART[telescopicLadderBay]
+//{@description = The Telus-LV Mobility Enhancer Bay comes equipped with advanced telescopic extension technology. Recommended load 1.5 kerbals.}
+{@description = Telus-LV機動力強化装置は先進的な伸縮機構を装備しています。kerbal1.5人分の荷重でご使用ください。}
+
+
+////★★-+-+-+ Wheel +-+-+-
+
+
+@PART[roverWheel1]
+//{@description =" After years of outcry against the lack of proper powered wheels, a small startup company named Kerbal Motion was founded and delivered just what the public wanted - the RoveMax Model 1 powered rover wheel."}
+{@description = 適当な動力付き車輪が無いことに対する長年の抗議の末、新興企業Kerbal　Motion社が作り出したこの製品は、まさに待ち望まれた物でした。-RoveMax　モデル1　パワードローバーホイール}
+
+@PART[roverWheel2]
+//{@description =" Seeing an untapped market for a smaller design of rover wheel, Kerbal Motion quickly pounced upon this opportunity with the Model 2 - designed for robotic vehicles or smaller crewed vehicles."}
+{@description = 小型化する探査車の部品の未開拓市場に目をつけ、チャンスに飛びついたKerbal　Motion社はすぐさま無人車や小型有人車のためにモデル2を作り上げました。}
+
+@PART[roverWheel3]
+//{@description =" The RoveMax Model 3 was developed in total secrecy by Kerbal Motion's R&D team over the course of a year and a half. When it was finally revealed to the company's chairman, he stared in shock, screamed 'WHY', and subsequently dropped dead on the spot."}
+{@description = RoveMaxモデル3は、Kerbal　Motion社の研究開発部署が一年半かけて極秘裏に開発しました。このことが会社の会長に明らかにされたとき、彼は「ナンデ！？」と叫んでその場でショック死しました。 }
+
+@PART[SmallGearBay]
+//{@description = High performance gear designed for atmospheric use.}
+{@description = 大気圏内での使用のために設計された高性能ギアです。}}
+
+@PART[wheelMed]
+//{@description =" The TR-2L  is an extremely tough wheel made for mobilizing medium sized vehicles across a large variety of terrain. The extremely high traction tread ensures firm grip on any surface, providing reliability and reducing the chances of being used for high-speed tomfoolery. "}
+{@description = TR-2Lはあらゆる地形を走る中サイズの車両用に作られたとても強靭なタイヤです。極めて高い摩擦力でどんな地面にもよくグリップし、信頼性を高め、高速走行での暴走の可能性を下げています。}
+
